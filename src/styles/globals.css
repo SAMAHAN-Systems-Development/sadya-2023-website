@@ -5,6 +5,10 @@
 :root {
   --color-blue: 0 28 121;
   --color-orange: 237 117 31;
+  --color-black: 51 51 51;
+  --color-white: 1 1 1;
+  --color-grey: 204 204 204;
+  --color-light-grey: 221 221 221;
 }
 
 @media (prefers-color-scheme: dark) {

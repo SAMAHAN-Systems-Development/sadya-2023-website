@@ -22,6 +22,10 @@ const config: Config = {
       // examples only, change after ui is finalized | alpha values allows opacity ex: blue/50
       blue: 'rgb(var(--color-blue) / <alpha-value>)',
       orange: 'rgb(var(--color-orange) / <alpha-value>)',
+      black: 'rgb(var(--color-black) / <alpha-value>)',
+      white: 'rgb(var(--color-white) / <alpha-value>)',
+      grey: 'rgb(var(--color-grey) / <alpha-value>)',
+      lightgrey: 'rgb(var(--color-light-grey) / <alpha-value>)'
     },
     container: {
       center: true,
