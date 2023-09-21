@@ -1,14 +1,21 @@
 import React from 'react';
-
-import Button from '@/components/ui/Button';
+import TicketsCard from '@/components/ui/Tickets/TicketsCard';
+import SectionUI from '@/components/SectionUI';
 
 const HomePage = () => {
   return (
-    <div>
-      <Button label="Primary Button" type="primary" />
-      <Button label="Secondary Button" type="secondary" />
-      <Button label="Large Button" size="large" />
-    </div>
+    <>
+    <SectionUI>
+      <h1>PURCHASE E-TICKETS</h1>
+      <div className="flex justify-center">
+         <TicketsCard/>
+          <TicketsCard/>
+      </div>
+      
+     
+    </SectionUI>
+   
+    </>
   );
 };
 
