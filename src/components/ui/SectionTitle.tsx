@@ -7,8 +7,10 @@ type TextProps = {
 const SectionTitle = (props: TextProps) => {
   return (
     <>
-      <h1>{props.title}</h1>
-      <h4>{props.subtitle}</h4>
+      <div className="flex justify-center">
+        <h1 className="text-2xl">{props.title}</h1>
+        <h4>{props.subtitle}</h4>
+      </div>
     </>
   );
 };
