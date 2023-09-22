@@ -9,6 +9,8 @@
   --color-white: 1 1 1;
   --color-grey: 204 204 204;
   --color-light-grey: 221 221 221;
+  --color-yellow: 239 216 7;
+  --color-yellow-green: 207 239 7;
 }
 
 @media (prefers-color-scheme: dark) {
