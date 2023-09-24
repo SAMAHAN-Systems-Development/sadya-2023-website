@@ -1,5 +1,5 @@
 import { cx } from 'class-variance-authority';
-import { ClassValue } from 'class-variance-authority/types';
+import type { ClassValue } from 'class-variance-authority/types';
 import { twMerge } from 'tailwind-merge';
 
 /**
