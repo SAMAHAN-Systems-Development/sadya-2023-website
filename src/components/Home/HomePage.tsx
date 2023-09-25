@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ActivitiesTile from '@/components/ActivitiesTile';
+import ActivitiesTile from '@/components/ui/ActivitiesTile';
 
 import Button from '@/components/ui/Button';
 
