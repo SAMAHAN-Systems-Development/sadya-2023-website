@@ -25,7 +25,8 @@ const config: Config = {
       black: 'rgb(var(--color-black) / <alpha-value>)',
       white: 'rgb(var(--color-white) / <alpha-value>)',
       grey: 'rgb(var(--color-grey) / <alpha-value>)',
-      lightgrey: 'rgb(var(--color-light-grey) / <alpha-value>)'
+      lightgrey: 'rgb(var(--color-light-grey) / <alpha-value>)',
+      lightgold: 'rgb(var(--color-light-gold) / <alpha-value>)'
     },
     container: {
       center: true,
