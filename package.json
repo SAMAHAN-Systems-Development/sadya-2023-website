@@ -55,5 +55,8 @@
       "eslint --fix --max-warnings=-1",
       "prettier --write"
     ]
+  },
+  "engines": {
+    "node": ">=16 <20"
   }
 }
