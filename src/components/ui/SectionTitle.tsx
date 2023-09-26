@@ -1,16 +1,19 @@
 import React from 'react';
 
 type TextProps = {
-  title: string;
   subtitle: string;
+  title: string;
 };
-const SectionTitle = (props: TextProps) => {
+
+const SectionTitle: React.FC<TextProps> = ({ subtitle, title }) => {
   return (
     <>
-      <div className="flex justify-center">
-        <h1 className="text-2xl">{props.title}</h1>
-        <h4>{props.subtitle}</h4>
-      </div>
+      <h1 className="flex justify-center text-center font-semibold flex-col text-6xl uppercase">
+        {title}
+        <span className="text-base font-normal normal-case justify-center mt-2">
+          {subtitle}
+        </span>
+      </h1>
     </>
   );
 };
