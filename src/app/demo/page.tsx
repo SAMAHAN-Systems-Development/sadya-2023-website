@@ -1,21 +1,15 @@
-import type { Metadata } from 'next';
+import type { Metadata }
+from 'next';
 
-import ActivitiesTile from '@/components/ui/ActivitiesTile';
+import MainButton from '@/components/ui/MainButton';
 
-export const metadata: Metadata = {
-  title: 'Sadya 2023',
-  description: '',
-};
+export const metadata: Metadata = { title: 'Sadya 2023', description: '' };
 
 export default function Home() {
-  return (
-    <main>
-      <ActivitiesTile activity={'BANNER MAKING'} location={'Building - Floor'} time={'10:00AM - 5:00PM'}/>
-      <ActivitiesTile activity={'BANNER MAKING'} location={'Building - Floor'} time={'10:00AM - 5:00PM'}/>
-      <ActivitiesTile activity={'BANNER MAKING'} location={'Building - Floor'} time={'10:00AM - 5:00PM'}/>
-      <ActivitiesTile activity={'BANNER MAKING'} location={'Building - Floor'} time={'10:00AM - 5:00PM'}/>
-      <ActivitiesTile activity={'BANNER MAKING'} location={'Building - Floor'} time={'10:00AM - 5:00PM'}/>
-      <ActivitiesTile activity={'BANNER MAKING'} location={'Building - Floor'} time={'10:00AM - 5:00PM'}/>
-    </main>
-  );
+    return (
+        <main>
+            <MainButton label="GET TICKETS" type="get-tickets"/>
+            <MainButton label="ABOUT" type="about"/>
+        </main>
+    );
 }
