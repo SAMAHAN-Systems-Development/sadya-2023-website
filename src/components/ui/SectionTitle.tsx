@@ -8,9 +8,9 @@ type TextProps = {
 const SectionTitle: React.FC<TextProps> = ({ subtitle, title }) => {
   return (
     <>
-      <h1 className="flex justify-center text-center font-semibold flex-col text-6xl uppercase">
+      <h1 className="flex justify-center text-center font-semibold flex-col sm:text-6xl text-2xl uppercase">
         {title}
-        <span className="text-base font-normal normal-case justify-center mt-2">
+        <span className="sm:text-base text-xs font-normal normal-case justify-center mt-2">
           {subtitle}
         </span>
       </h1>
