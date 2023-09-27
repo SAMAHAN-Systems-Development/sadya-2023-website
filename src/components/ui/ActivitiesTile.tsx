@@ -21,5 +21,4 @@ export const ActivitiesTile = ( { activity, time, location } : Props ) : JSX.Ele
     );
 };
 
-
 export default ActivitiesTile;
