@@ -5,5 +5,6 @@ export type EventDataTypes = {
   eventDataDescription: string;
   eventDataEntry: string;
   eventDataFloor: string;
-  imageUrl?: StaticImageData;
+  start: string;
+  expiry: string;
 };
