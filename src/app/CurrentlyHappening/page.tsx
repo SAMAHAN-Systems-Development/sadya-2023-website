@@ -1,15 +1,24 @@
-'use client'; 
-import React, { useState } from 'react';
+'use client';
+
+import React, { useEffect, useState } from 'react';
+
 import EventCard from '@/components/ui/EventCard';
 import { EventData } from '@/data/EventData';
 import { FilterContents } from '@/utils/datetime';
 
 export default function Home() {
-  // const filteredEvents = FilterContents(EventData);
-  const [filteredEvents, setFilteredEvents] = useState(FilterContents(EventData))
-  console.log(filteredEvents)
-  return (
+  const [filteredEvents, setFilteredEvents] = useState(
+    FilterContents(EventData)
+  );
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFilteredEvents(FilterContents(filteredEvents));
+    }, 10000);
+    return () => clearInterval(interval);
+  }, [filteredEvents]);
+
+  return (
     <main>
       {filteredEvents.length === 0 ? (
         <div className="flex justify-center items-center h-screen">
