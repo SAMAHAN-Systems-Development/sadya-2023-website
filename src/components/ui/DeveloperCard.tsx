@@ -2,8 +2,7 @@ import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa6';
 import Image from 'next/image';
 
-// eslint-disable-next-line no-restricted-imports
-import type { DeveloperCardProps } from '../../../lib/types/developersDatatype';
+import type { DeveloperCardProps } from 'lib/types/developersDatatype';
 
 // type DeveloperCardProps = {
 //   course: string;
@@ -46,14 +45,14 @@ const DeveloperCard: React.FC<DeveloperCardProps> = ({
             </a>
           </div>
         </div>
-        {/* <Image
+        <Image
           src={imageUrl}
           placeholder="blur"
           draggable={false}
           fill
           className="rounded-card object-cover object-center"
           alt="/"
-        /> */}
+        />
       </div>
     </div>
   );
