@@ -1,8 +1,5 @@
-// eslint-disable-next-line import/no-unresolved
+import type { DeveloperCardProps } from 'lib/types/developersDatatype';
 import picSample from 'public/assets/images/SysEgg.png';
-
-// eslint-disable-next-line no-restricted-imports
-import type { DeveloperCardProps } from '../../lib/types/developersDatatype';
 
 export const Developers: DeveloperCardProps[] = [
   {
