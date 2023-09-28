@@ -13,7 +13,7 @@ const DeveloperSection = () => {
         Non exercitation elit dolor do quis pariatur nisi culpa occaecat
         officia.
       </span>
-      <div className="pt-20 grid grid-cols-2 gap-16">
+      <div className="pt-20 grid grid-cols-3 gap-16">
         {Developers.map((item, index) => (
           <div key={index}>
             <DeveloperCard {...item} />
