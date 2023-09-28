@@ -10,7 +10,7 @@ type MainButtonProps = {
 
 const buttonVariants = cva(
     [
-      'inline-flex items-center gap-[0.625rem] px-[2.1875rem] py-[0.9375rem] overflow-hidden rounded-[0.625rem] justify-center relative',
+      'inline-flex items-center gap-[0.625rem] px-[2.1875rem] py-[0.9375rem] overflow-hidden rounded-[0.625rem] justify-center relative cursor-pointer',
       '[font-family:\'Inter-ExtraBold\',Helvetica] w-fit mt-[-0.0625rem] tracking-[0] font-extrabold leading-[normal] whitespace-nowrap relative',
     ],
     {
