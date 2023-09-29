@@ -27,7 +27,9 @@ const config: Config = {
       grey: 'rgb(var(--color-grey) / <alpha-value>)',
       hovergrey: 'rgb(var(--color-hover-grey) / <alpha-value>)',
       lightgrey: 'rgb(var(--color-light-grey) / <alpha-value>)',
-      lightgold: 'rgb(var(--color-light-gold) / <alpha-value>)'
+      lightgold: 'rgb(var(--color-light-gold) / <alpha-value>)',
+      lavander: 'rgb(var(--color-lavander) / <alpha-value>)',
+      lightlavander: 'rgb(var(--color-light-lavander) / <alpha-value>)',
     },
     container: {
       center: true,

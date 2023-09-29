@@ -11,6 +11,8 @@
   --color-grey: 204 204 204;
   --color-light-grey: 221 221 221;
   --color-light-gold: 254 245 172;
+  --color-lavander: 148 66 255;
+  --color-light-lavander: 165 95 255;
 }
 
 @media (prefers-color-scheme: dark) {
