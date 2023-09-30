@@ -17,7 +17,7 @@ const buttonVariants = cva(
       variants: {
         type: {
           'get-tickets': 'bg-lavander text-white hover:bg-lightlavander rounded-[625rem]',
-          'about': 'bg-opacity-0 px-[3.1875rem] py-[0.9375rem ] outline outline-2 outline-[#333333] text-[#333333] rounded-[0.725rem] hover:text-[#757575] hover:outline-[#757575]',
+          'about': 'px-[3.1875rem] py-[0.9375rem ] outline outline-2 outline-[#333333] text-[#333333] rounded-[0.725rem] hover:text-[#757575] hover:outline-[#757575]',
         },
       },
     }
