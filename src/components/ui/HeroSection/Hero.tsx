@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+
+import MainButton from '@/components/ui/MainButton'
 const Hero = () => {
  
   return (
@@ -22,9 +24,7 @@ const Hero = () => {
                 Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit, sed do eiusmod tempor.
             </p>
-            <button className="w-[10rem] bg-white text-black py-2 px-1 rounded-lg">
-                BUTTON
-            </button>
+            <MainButton label="GET TICKETS" type="get-tickets"/>
         </div>
     </div>
   );
