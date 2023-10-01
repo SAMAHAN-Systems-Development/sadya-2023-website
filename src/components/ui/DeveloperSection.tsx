@@ -9,11 +9,11 @@ const DeveloperSection = () => {
       <h1 className="text-6xl font-extrabold text-center">
         SAMAHAN <br /> SYSDEV TEAM
       </h1>
-      <span className="text-center pt-5">
+      <span className="text-center pt-5 px-10">
         Non exercitation elit dolor do quis pariatur nisi culpa occaecat
         officia.
       </span>
-      <div className="pt-20 grid grid-cols-3 gap-16">
+      <div className="pt-20 grid grid-cols-1 lg:grid-cols-2 gap-16">
         {Developers.map((item, index) => (
           <div key={index}>
             <DeveloperCard {...item} />
