@@ -6,7 +6,7 @@ export const EventData: EventDataTypes[] = [
     eventDataDate: 'October 12, 2023',
     eventDataDescription: 'Banner Making',
     eventDataFloor: 'Martin Hall - 6th Floor - Ateneo de Davao University',
-    start: 'October 1 2023 6:50 PM',
+    start: 'October 1 2023 7:00 PM',
     expiry: 'October 1 2023 11:00 PM',
   },
   {
