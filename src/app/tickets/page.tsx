@@ -1,12 +1,12 @@
 import React from 'react';
 
-//import TicketsCard from '@/components/ui/Tickets/TicketsCard';
+import TicketsCard from '@/components/ui/Tickets/TicketsCard';
 
-const HomePage = () => {
+const Test = () => {
     return (
         <div className="flex justify-center">
             
-                <h1>Sample</h1>
+                <TicketsCard eventSlotLeft="40" />
                 
           
             
@@ -14,4 +14,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default Test;
