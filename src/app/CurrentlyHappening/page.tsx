@@ -1,10 +1,9 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-
-import EventCard from '@/components/ui/EventCard';
-import { EventData } from '@/data/EventData';
-import { FilterContents } from '@/utils/datetime';
+import EventCard from '../../components/ui/EventCard';
+import { EventData } from '../../data/EventData';
+import { FilterContents } from '../../utils/datetime';
 
 export default function Home() {
   const [filteredEvents, setFilteredEvents] = useState(

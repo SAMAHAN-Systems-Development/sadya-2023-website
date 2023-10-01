@@ -1,5 +1,6 @@
-import EventCard from '@/components/ui/EventCard';
-import { EventData } from '@/data/EventData';
+import React from 'react';
+import EventCard from '../../components/ui/EventCard';
+import { EventData } from '../../data/EventData';
 
 export default function Home() {
   return (
