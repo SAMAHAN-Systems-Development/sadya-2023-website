@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "@types/node": "20.6.0",
@@ -42,8 +43,22 @@
     "eslint": "^8.49.0",
     "eslint-plugin-storybook": "^0.6.13",
     "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "storybook": "^7.4.1",
+    "tailwindcss": "^3.3.3",
     "typescript": "^5.1.6"
+  },
+  "lint-staged": {
+    "{**/*,*}.{json,css,md}": [
+      "prettier --write"
+    ],
+    "{**/*,*}.{ts,tsx,js,jsx}": [
+      "eslint --fix --max-warnings=-1",
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=16 <20"
   }
 }

@@ -28,7 +28,7 @@ const buttonVariants = cva(
   }
 );
 
-const Button: React.FC<ButtonProps> = ({ label, size, type }) => {
+const Button: React.FC<ButtonProps> = ({ label, size, type }) => {  
   return (
     <div className={buttonVariants({ size, type })}>
       <p className="group-hover/main:scale-95 transition-all ease-in-out duration-300">
