@@ -1,5 +1,5 @@
 
-export type TicketsCardsType = {
+export type TicketsCardProps = {
   eventBuilding: string,
   eventDate: string,
   eventFloor: string,
