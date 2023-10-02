@@ -4,8 +4,8 @@ import MainButton from "@/components/ui/MainButton";
 
 const NavigationBar = () => {
   return (
-    <div className="flex items-center justify-between px-6 py-4 bg-white h-24 md:h-24 lg:h-24 xl:h-24 2xl:h-24">
-      <div className="relative font-extrabold text-black text-lg tracking-0 leading-normal md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-2xl">
+    <div className="flex items-center justify-between px-6 py-4 bg-white h-[5.625rem] fold:h-[5.625rem] xs:h-[5.625rem] sm:h-[5.625rem] md:h-[5.625rem] lg:h-[5.625rem] xl:h-[5.625rem] 2xl:h-[5.625rem]">
+      <div className="relative font-extrabold text-black text-[30px] tracking-0 leading-normal fold:text-[20px] xs:text-[30px] sm:text-[30px] md:text-[30px] lg:text-[30px] xl:text-[30px] 2xl:text-[30px]">
         <div>SADYA</div>
         <div>2023</div>
       </div>
