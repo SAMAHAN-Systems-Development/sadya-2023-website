@@ -1,10 +1,18 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa6';
+import type { StaticImageData } from 'next/image';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import type { DeveloperCardProps } from 'lib/types/developersDatatype';
-
+type DeveloperCardProps = {
+  course: string;
+  developerType: string;
+  facebook: string;
+  fullName: string;
+  imageUrl: StaticImageData;
+  instagram: string;
+  twitter: string;
+};
 const DeveloperCard: React.FC<DeveloperCardProps> = ({
   course,
   developerType,

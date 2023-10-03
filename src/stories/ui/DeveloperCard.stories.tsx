@@ -13,10 +13,10 @@ type Story = StoryObj<typeof DeveloperCard>;
 
 export const Primary: Story = {
   args: {
-    course: 'course',
-    developerType: 'primary',
+    course: 'BS Computer Science',
+    developerType: 'Full-Stack Developer',
     facebook: 'facebookLink',
-    fullName: 'Developer',
+    fullName: 'Pancit Canton',
     imageUrl: picSample,
     instagram: 'instagramLink',
     twitter: 'twitterLink',
