@@ -8,8 +8,8 @@ type CardProps = {
 };
 
 const cardStyle = {
-  width: '500px',
-  height: '320px',
+  width: '450px',
+  height: '300px',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-between',
@@ -18,8 +18,7 @@ const cardStyle = {
 const containerStyle = {
   display: 'flex',
   justifyContent: 'center',
-  alignItems: 'center',
-  height: '100vh', 
+  alignItems: 'center', 
 };
 
 const EventCard: React.FC<CardProps> = ({
@@ -30,7 +29,7 @@ const EventCard: React.FC<CardProps> = ({
 }) => {
   return (
     <div style={containerStyle}>
-      <div style={cardStyle} className="rounded-xl overflow-hidden shadow-lg bg-black">
+      <div className="rounded-xl overflow-hidden shadow-lg bg-black" style={cardStyle}>
         <div className="px-4 py-4">
           <div className="text-base mb-2">{title}</div>
         </div>
