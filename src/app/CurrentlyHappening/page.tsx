@@ -5,6 +5,13 @@ import EventCard from '../../components/ui/EventCard';
 import { EventData } from '../../data/EventData';
 import { FilterContents } from '../../utils/datetime';
 
+const mainContainerStyle = {
+  height: "1070px",
+  paddingTop: "120px",
+  paddingLeft: "195px",
+  paddingRight: "195px",
+};
+
 export default function Home() {
   const [filteredEvents, setFilteredEvents] = useState(
     FilterContents(EventData)
@@ -18,9 +25,9 @@ export default function Home() {
   }, [filteredEvents]);
 
   return (
-    <main>
+    <main style={mainContainerStyle}>
       {filteredEvents.length === 0 ? (
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center items-center">
           <p>No Current Events</p>
         </div>
       ) : (
