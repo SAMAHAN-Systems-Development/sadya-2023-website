@@ -11,6 +11,11 @@ const mainContainerStyle = {
   paddingLeft: "195px",
   paddingRight: "195px",
 };
+const containerStyle = {
+  width: '100%',
+  maxWidth: '1200px',
+  height: '1050px',
+}
 
 export default function Home() {
   const [filteredEvents, setFilteredEvents] = useState(
@@ -31,7 +36,8 @@ export default function Home() {
           <p>No Current Events</p>
         </div>
       ) : (
-        <div>
+        <div className='flex justify-center gap-5'>
+        <div style={containerStyle} className='flex flex-wrap justify-center gap-10 mt-10'>
           {filteredEvents.map((event, index) => (
             <EventCard
               key={index}
@@ -41,6 +47,7 @@ export default function Home() {
               floor={event.eventDataFloor}
             />
           ))}
+        </div>
         </div>
       )}
     </main>
