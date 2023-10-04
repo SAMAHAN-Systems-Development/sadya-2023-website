@@ -8,6 +8,11 @@ import { FilterContents } from '../../utils/datetime';
 const cardStyle = {
   marginTop: "280px",
 };
+const containerStyle = {
+  width: '100%',
+  maxWidth: '1200px',
+  height: '1050px',
+}
 
 export default function MapEventCard() {
   const [filteredEvents, setFilteredEvents] = useState(
@@ -22,13 +27,14 @@ export default function MapEventCard() {
   }, [filteredEvents]);
 
   return (
-    <main className='px-195'>
+    <main className='px-195 mt-10'>
       {filteredEvents.length === 0 ? (
         <div className="flex justify-center items-center" style={cardStyle}>
           <p>No Current Events</p>
         </div>
       ) : (
-        <div>
+        <div className='flex justify-center gap-5'>
+        <div style={containerStyle} className='flex flex-wrap justify-center gap-10 mt-10'>
           {filteredEvents.map((event, index) => (
             <EventCard
               key={index}
@@ -38,6 +44,7 @@ export default function MapEventCard() {
               floor={event.eventDataFloor}
             />
           ))}
+        </div>
         </div>
       )}
     </main>
