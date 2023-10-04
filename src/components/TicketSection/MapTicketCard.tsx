@@ -14,7 +14,7 @@ export default function MapTicketCard(){
        
       <div className="px-5">
         <div className="flex flex-col text-center py-5">
-          <h1>
+          <h1 className="font-bold">
                 {firstCard_header.eventTitle}
             </h1>
               <h2>
@@ -42,7 +42,7 @@ export default function MapTicketCard(){
 
       <div className="px-5">
      <div className="flex flex-col text-center py-5">
-            <h1>
+            <h1 className="font-bold">
                 {secondCard_header.eventTitle}
             </h1>
               <h2>

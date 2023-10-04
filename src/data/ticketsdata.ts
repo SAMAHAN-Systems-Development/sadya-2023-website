@@ -30,7 +30,7 @@ export const firstCard: TicketsType[] = [
   eventPrice: 150,
   eventFoodAvailability: "No Food",
   eventBuilding: "Martin Bldg.",
-  eventSlotLeft: 100,
+  eventSlotLeft: 90,
   eventTime: "5:00",
   },
   {

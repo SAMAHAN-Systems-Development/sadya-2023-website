@@ -23,12 +23,11 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
            type="single" collapsible>
             <Accordion.Item className="AccordionItem" value="1">
               <Accordion.Trigger className="w-full grid grid-cols-2 py-1">
-                <div className="flex items-center place-content-start">
-                
+                <div className="flex items-center place-content-start font-bold">
                   {eventFloor}
                 </div>
                 <div className="flex items-center place-content-end">
-                     {eventSlotLeft} 
+                     {eventSlotLeft} Slots Left 
                     {<RxChevronRight className="AccordionChevron" aria-hidden/>} 
                  </div>
                 </Accordion.Trigger>

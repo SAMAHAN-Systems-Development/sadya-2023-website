@@ -1,11 +1,13 @@
 import React from 'react';
 
-import MapTicketCard from '@/components/TicketSection/MapTicketCard';
+import TicketSectionHeader from '@/components/TicketSection/TicketSectionHeader'
+import MapTicketCard from '@/components/TicketSection/MapTicketCard'
 
 const Test = () => {
     return (
         
-        <div className="flex items-center justify-center h-screen">
+        <div className="h-screen flex flex-col items-center justify-center ">
+                <TicketSectionHeader/>
                 <MapTicketCard/>
         </div>
         
