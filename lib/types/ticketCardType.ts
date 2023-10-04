@@ -1,10 +1,9 @@
 
 export type TicketsCardProps = {
   eventBuilding: string,
-  eventDate: string,
   eventFloor: string,
-  eventPrice: string,
-  eventSlotLeft: string,
+  eventFoodAvailability: string,
+  eventPrice: number,
+  eventSlotLeft: number,
   eventTime: string,
-  eventTitle: string
 };

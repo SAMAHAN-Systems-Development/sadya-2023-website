@@ -6,36 +6,35 @@ import * as Accordion from '@radix-ui/react-accordion';
 import type { TicketsCardProps } from 'lib/types/ticketCardType';
 
 const TicketsCard: React.FC<TicketsCardProps> = ({
-  eventSlotLeft,
-  eventTitle,
-  eventDate,
   eventFloor,
-  eventPrice,
+  eventPrice, 
+  eventFoodAvailability,
   eventBuilding,
+  eventSlotLeft,
   eventTime,
+
   
 
 }) => {
   return(
-<div className="w-full flex justify-center align-middle">
-        
+<div className="w-full justify-center align-middle">
           <Accordion.Root 
-          className="w-[300px] rounded-md shadow-[0_2px_10px] shadow-black/5"
+          className="w-[300px] rounded-md shadow-[10px_10px_5px] shadow-black/5 px-5 py-3"
            type="single" collapsible>
             <Accordion.Item className="AccordionItem" value="1">
-              <Accordion.Trigger className="w-full grid grid-cols-2 ">
-                <div className="place-self-start">
+              <Accordion.Trigger className="w-full grid grid-cols-2 px-5 py-3">
+                <div className="font-bold">
                   {eventFloor}
                 </div>
-                <div className="flex flex-row  items-center place-content-end">
+                <div className="flex items-center place-content-end">
                   
                      {eventSlotLeft} 
-                    {<RxChevronRight/>} 
+                    {<RxChevronRight className="AccordionChevron" aria-hidden/>} 
                  </div>
                 </Accordion.Trigger>
               <Accordion.Content>
                 <div>
-                  {eventPrice} - No Food
+                  {eventPrice} - {eventFoodAvailability}
                   </div>
                 <div>
                   {eventBuilding} - {eventTime}
