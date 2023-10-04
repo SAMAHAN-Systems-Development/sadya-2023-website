@@ -12,22 +12,22 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
   eventBuilding,
   eventSlotLeft,
   eventTime,
-
+ 
   
 
 }) => {
   return(
 <div className="w-full justify-center align-middle">
           <Accordion.Root 
-          className="w-[300px] rounded-md shadow-[10px_10px_5px] shadow-black/5 px-5 py-3"
+          className="w-full rounded-md shadow-[10px_10px_5px] shadow-black/5 px-3 py-3"
            type="single" collapsible>
             <Accordion.Item className="AccordionItem" value="1">
-              <Accordion.Trigger className="w-full grid grid-cols-2 px-5 py-3">
-                <div className="font-bold">
+              <Accordion.Trigger className="w-full grid grid-cols-2 py-1">
+                <div className="flex items-center place-content-start">
+                
                   {eventFloor}
                 </div>
                 <div className="flex items-center place-content-end">
-                  
                      {eventSlotLeft} 
                     {<RxChevronRight className="AccordionChevron" aria-hidden/>} 
                  </div>
@@ -36,10 +36,10 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
                 <div>
                   {eventPrice} - {eventFoodAvailability}
                   </div>
-                <div>
+                <div className="py-1">
                   {eventBuilding} - {eventTime}
                 </div>
-                <button className="w-full py-[0.9375rem ] outline outline-2 outline-[#333333] text-[#333333] rounded-[0.725rem] hover:text-[#757575] hover:outline-[#757575]'">
+                <button className="w-full py-[0.9375rem ] outline outline-2 outline-[#333333] text-[#333333] rounded hover:text-[#757575] hover:outline-[#757575]'">
                   Buy Tickets
                 </button>
                

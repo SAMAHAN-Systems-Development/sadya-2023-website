@@ -7,10 +7,6 @@ const Test = () => {
         
         <div className="flex items-center justify-center h-screen">
                 <MapTicketCard/>
-                
-
-             
-          
         </div>
         
     );
