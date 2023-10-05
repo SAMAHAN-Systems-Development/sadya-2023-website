@@ -1,10 +1,12 @@
 import React from 'react';
+import sampleImg from "../../data/sampleImg.jpeg"
 
 type CardProps = {
   date: string;
   description: string;
   floor: string;
   title: string;
+  imageUrl: any;
 };
 
 const cardStyle = {
@@ -13,6 +15,9 @@ const cardStyle = {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-between',
+  backgroundImage: `url(https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg)`,
+  backgroundSize: 'cover',
+
 };
 
 const containerStyle = {
@@ -26,6 +31,7 @@ const EventCard: React.FC<CardProps> = ({
   date,
   description,
   floor,
+  imageUrl,
 }) => {
   return (
     <div style={containerStyle}>
