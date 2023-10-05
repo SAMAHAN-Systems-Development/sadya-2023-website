@@ -1,30 +1,35 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from 'next/image'
+import imgSrc from 'public/assets/images/temporary_hero.jpg';
 
 import MainButton from '@/components/ui/MainButton'
 const Hero = () => {
  
   return (
-    <div className="h-screen grid grid-cols-2 items-center justify-center">
+    <div className="my-5 flex flex-col justify-center">
         
-        <div className="mx-10 px-5">
+        <div className="w-full flex justify-center my-5 ">
            
-            <Image src="/2.jpg" 
+            <Image src={imgSrc} 
             alt="placeholder_banner" 
-            width={500}
-            height={300} 
-            className="w-full"
+            placeholder="blur"
+            draggable={false}
+            width={1000}
+            height={500} 
             />
-    </div>
+      </div>
 
-        <div className="w-[60%] flex flex-col gap-5">
-            <h2 className="text-2xl gap-2">SADYA 2023 Event Website</h2>
-            <h2 className="text-7xl font-bold">The Ateneo U-Fest</h2>
+        <div className="text-center">
+          <div className="my-3">
+              <MainButton label="GET TICKETS" type="get-tickets"/>
+          </div>
+          
+            <h3 className="text-center my-3 text-5xl font-bold">October 12-14, 2023 </h3>
             <p className="text-lg">
                 Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit, sed do eiusmod tempor.
             </p>
-            <MainButton label="GET TICKETS" type="get-tickets"/>
+            
         </div>
     </div>
   );
