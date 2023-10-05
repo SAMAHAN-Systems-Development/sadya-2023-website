@@ -2,7 +2,6 @@ import React from 'react';
 import EventCard from '../../components/ui/EventCard';
 import { EventData } from '../../data/EventData';
 
-import sampleImg from '../../data/sampleImg.jpeg'
 
 const containerStyle = {
   width: '100%',

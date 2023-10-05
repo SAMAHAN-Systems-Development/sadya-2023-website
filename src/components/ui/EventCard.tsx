@@ -1,5 +1,4 @@
 import React from 'react';
-import sampleImg from "../../data/sampleImg.jpeg"
 
 type CardProps = {
   date: string;
