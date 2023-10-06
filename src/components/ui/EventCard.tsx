@@ -18,7 +18,6 @@ const EventCard: React.FC<CardProps> = ({
   imageUrl,
 }) => {
   return (
-    // <div className='flex relative rounded-xl overflow-hidden h-80 md:h-80 md:w-[500px]'>
     <div className='flex relative rounded-xl overflow-hidden h-80 w-full xsm:w-[320px] sm:w-[400px] md:w-[500px]'>
       <Image src={imageUrl} alt={'${title} Photo'} className='absolute object-cover' draggable={false} placeholder='blur' fill/>
       <div className="flex flex-col z-10 px-5 py-5 justify-between w-full h-full bg-transparent bg-gradient-to-t from-[#9747FF]">
