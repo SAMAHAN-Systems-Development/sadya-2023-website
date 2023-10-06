@@ -10,7 +10,6 @@ type CardProps = {
   title: string;
 };
 
-
 const EventCard: React.FC<CardProps> = ({
   title,
   date,
@@ -19,15 +18,14 @@ const EventCard: React.FC<CardProps> = ({
   imageUrl,
 }) => {
   return (
-    <div className='flex relative rounded-xl overflow-hidden lg:w-[450px]'>
-      <Image src={imageUrl} alt='Event Photo' className='absolute object-cover' fill/>
-      <div className="z-10">
-        <div className="px-4 py-4">
-          <div className="text-base mb-2">{title}</div>
-        </div>
-        <div className="flex flex-col px-4 py-4">
-          <p className="text-gray-700 text-base mt-20">{date}</p>
-          <p className="font-bold text-gray-700 text-xl">{description}</p>
+    // <div className='flex relative rounded-xl overflow-hidden h-80 md:h-80 md:w-[500px]'>
+    <div className='flex relative rounded-xl overflow-hidden h-80 w-full xsm:w-[320px] sm:w-[400px] md:w-[500px]'>
+      <Image src={imageUrl} alt={'${title} Photo'} className='absolute object-cover' draggable={false} placeholder='blur' fill/>
+      <div className="flex flex-col z-10 px-4 py-4 justify-between w-full h-full bg-transparent bg-gradient-to-t from-[#9747FF]">
+        <div className="text- ">{title}</div>
+        <div>
+          <p className="text-gray-700 text-base">{date}</p>
+          <p className="font-londrina text-gray-700 text-xl">{description}</p>
           <p className="text-gray-700 text-base">{floor}</p>
         </div>
       </div>
