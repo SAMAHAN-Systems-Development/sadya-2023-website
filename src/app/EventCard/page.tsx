@@ -19,7 +19,7 @@ export default function Home() {
               date={event.eventDataDate}
               description={event.eventDataDescription}
               floor={event.eventDataFloor} 
-              imageUrl={'https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg'}              
+              imageUrl={event.imageUrl}         
               />
           ))}
         </div>
