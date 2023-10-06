@@ -1,4 +1,4 @@
-import { EventDataTypes } from "../../lib/types/EventDataTypes";
+import type { EventDataTypes } from "../../lib/types/EventDataTypes";
 
 import sampleImg from 'public/assets/images/sampleImg.png'
 
