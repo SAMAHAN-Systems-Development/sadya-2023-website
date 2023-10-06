@@ -1,4 +1,4 @@
-import type { TicketsType } from '../../lib/types/ticketCardType';
+import type { TicketsCardType } from '../../lib/types/ticketCardType';
 
 
 export const firstCard_header = {
@@ -7,13 +7,13 @@ export const firstCard_header = {
 }
 
 export const secondCard_header = {
-  eventTitle: "BOTB & Creative Series Short Film Showcase",
+  eventTitle: "BOTB",
   eventDate: "October 12-13, 2023"
 }
   
   
 // useState
-export const firstCard: TicketsType[] = [
+export const firstCard: TicketsCardType[] = [
   {
   eventId: "Event1-4F",
   eventFloor: "4F",
@@ -23,38 +23,9 @@ export const firstCard: TicketsType[] = [
   eventSlotLeft: 100,
   eventTime: "5:00",
   },
-
-  {
-  eventId: "Event1-5F",
-  eventFloor: "5F",
-  eventPrice: 150,
-  eventFoodAvailability: "No Food",
-  eventBuilding: "Martin Bldg.",
-  eventSlotLeft: 90,
-  eventTime: "5:00",
-  },
-  {
-  eventId: "Event1-6F",
-  eventFloor: "6F",
-  eventPrice: 150,
-  eventFoodAvailability: "With Food",
-  eventBuilding: "Martin Bldg.",
-  eventSlotLeft: 100,
-  eventTime: "5:00",
-  },
-  {
-  eventId: "Event1-7F",
-  eventFloor: "7F",
-  eventPrice: 150,
-  eventFoodAvailability: "No Food",
-  eventBuilding: "Martin Bldg.",
-  eventSlotLeft: 100,
-  eventTime: "5:00",
-  },
-  
 ]
 
-export const secondCard: TicketsType[] = [
+export const secondCard: TicketsCardType[] = [
   {
   eventId: "Event2-6F",
   eventFloor: "6F",

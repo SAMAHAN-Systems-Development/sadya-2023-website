@@ -19,7 +19,7 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
   return(
 <div className="w-full justify-center align-middle">
           <Accordion.Root 
-          className="w-full rounded-md shadow-[10px_10px_5px] shadow-black/5 px-3 py-3"
+          className="w-full rounded-md shadow-[5px_10px_5px] shadow-black/10 px-3 py-3"
            type="single" collapsible>
             <Accordion.Item className="AccordionItem" value="1">
               <Accordion.Trigger className="w-full grid grid-cols-2 py-1">
