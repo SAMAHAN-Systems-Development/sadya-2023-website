@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <SectionTitle
         title="Purchase E-tickets"
-        subtitle="Discover our exciting lineup of daily events and plan your day accordingly"
+        subtitle="Grab your E-tickets now and gain swift, stress-free entry, ensuring you don't miss a moment of the excitement."
       />
     </main>
   );
