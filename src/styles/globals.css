@@ -13,6 +13,7 @@
   --color-light-gold: 254 245 172;
   --color-lavander: 148 66 255;
   --color-light-lavander: 165 95 255;
+  --color-crimson: 255 14 105;
 }
 
 @media (prefers-color-scheme: dark) {
