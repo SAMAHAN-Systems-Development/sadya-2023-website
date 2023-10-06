@@ -1,8 +1,10 @@
 import { EventDataTypes } from "../../lib/types/EventDataTypes";
 
+import sampleImg from 'public/assets/images/sampleImg.png'
+
 export const EventData: EventDataTypes[] = [
   {
-    imageUrl: "https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg",
+    imageUrl: sampleImg,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDate: 'October 12, 2023',
     eventDataDescription: 'Banner Making',
@@ -11,7 +13,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 04 2023 11:00 PM',
   },
   {
-    imageUrl: "https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg",
+    imageUrl: sampleImg,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDate: 'October 12, 2023',
     eventDataDescription: 'Dance Sport',
@@ -20,7 +22,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 04 2023 11:00 PM',
   },
   {
-    imageUrl: "https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg",
+    imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDate: 'October 12, 2023',
     eventDataDescription: 'Bench Cheerings (Liveliest Cluster Award)',
@@ -29,7 +31,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 04 2023 11:00 PM',
   },
   {
-    imageUrl: "https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg",
+    imageUrl: sampleImg,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDate: 'October 12, 2023',
     eventDataDescription: 'Battle of the Bands',
@@ -38,7 +40,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 04 2023 11:00 PM',
   },
   {
-    imageUrl: "https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg",
+    imageUrl: sampleImg,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDate: 'October 13, 2023',
     eventDataDescription: 'Star Search',
@@ -47,7 +49,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 04 2023 11:00 PM',
   },
   {
-    imageUrl: "https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg",
+    imageUrl: sampleImg,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDate: 'October 13, 2023',
     eventDataDescription: 'Creative Series: Short Film',
@@ -56,7 +58,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 04 2023 11:00 PM',
   },
   {
-    imageUrl: "https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg",
+    imageUrl: sampleImg,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDate: 'October 13, 2023',
     eventDataDescription: 'Sayawtenista',
@@ -65,7 +67,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 04 2023 11:00 PM',
   },
   {
-    imageUrl: "https://i.kym-cdn.com/entries/icons/facebook/000/027/852/Screen_Shot_2018-12-12_at_1.02.39_PM.jpg",
+    imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDate: 'October 12-14, 2023',
     eventDataDescription: 'COA-D Gimikan',
