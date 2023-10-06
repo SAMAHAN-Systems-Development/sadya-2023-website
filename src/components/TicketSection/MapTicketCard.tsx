@@ -1,8 +1,8 @@
 
 import TicketsCard from '@/components/ui/Tickets/TicketsCard'
 import {
-  firstCard, secondCard, 
-  firstCard_header, secondCard_header
+  firstCard,   firstCard_header, secondCard, 
+secondCard_header
 } from '@/data/ticketsdata'
 
 
