@@ -34,6 +34,7 @@ const config: Config = {
       lightgold: 'rgb(var(--color-light-gold) / <alpha-value>)',
       lavander: 'rgb(var(--color-lavander) / <alpha-value>)',
       lightlavander: 'rgb(var(--color-light-lavander) / <alpha-value>)',
+      crimson: 'rgb(var(--color-crimson) / <alpha-value>)',
     },
     container: {
       center: true,
