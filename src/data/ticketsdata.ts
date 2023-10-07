@@ -53,6 +53,7 @@ export const secondCardData: TicketsCardType[] = [
   eventBuilding: "Bapa Benny Tudtud Auditorium",
   eventSlotLeft: 300,
   eventTime: "6:00 - 9:00 PM",
+  eventURL: 'https://form.jotform.com/232793414644056',
   },
 ]
 
