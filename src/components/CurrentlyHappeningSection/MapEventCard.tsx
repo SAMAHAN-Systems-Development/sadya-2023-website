@@ -18,7 +18,7 @@ export default function MapEventCard() {
   }, [filteredEvents]);
 
   return (
-    <main className='pt-[55px]'>
+    <div className='pt-[55px]'>
       {filteredEvents.length === 0 ? (
         <div className="flex justify-center items-center font-inter">
           <p>No Current Events</p>
@@ -39,6 +39,6 @@ export default function MapEventCard() {
           </div>
          </div>
       )}
-    </main>
+    </div>
   );
 };
