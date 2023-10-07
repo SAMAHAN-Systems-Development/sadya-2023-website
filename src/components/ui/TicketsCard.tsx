@@ -6,6 +6,7 @@ import * as Accordion from '@radix-ui/react-accordion';
 import type { TicketsCardProps } from 'lib/types/ticketCardType';
 
 import { cn } from '@/utils/cvaUtils';
+import Link from "next/link";
 
 
 const TicketsCard: React.FC<TicketsCardProps> = ({
@@ -15,6 +16,8 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
   eventBuilding,
   eventSlotLeft,
   eventTime,
+  eventId,
+  eventURL,
  
   
 
@@ -77,9 +80,12 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
                 <div className="block font-inter md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
                   {eventTime}
                 </div>
-                <button className="w-full font-inter md:h-[2.3244rem] sm:h-[1.8569rem] xsm:h-[1.4988rem] md:text-[1.125rem] sm:text-[.8988rem] xsm:text-[.7256rem] text-[#FFFFFF] bg-lavander hover:bg-lightlavander  hover:outline-[#757575] rounded">
-                  Buy Tickets
-                </button>
+                <Link href={eventURL}>
+                   <button className="w-full font-inter md:h-[2.3244rem] sm:h-[1.8569rem] xsm:h-[1.4988rem] md:text-[1.125rem] sm:text-[.8988rem] xsm:text-[.7256rem] text-[#FFFFFF] bg-lavander hover:bg-lightlavander  hover:outline-[#757575] rounded">
+                     Buy Tickets
+                  </button>
+                </Link>
+               
                
                 </Accordion.Content>
             </Accordion.Item>

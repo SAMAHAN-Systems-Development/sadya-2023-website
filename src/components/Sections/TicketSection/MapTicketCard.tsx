@@ -1,36 +1,40 @@
 
-import TicketsCard from '@/components/ui/Tickets/TicketsCard'
-import {
-  firstCard,   firstCard_header, secondCard, 
-secondCard_header
-} from '@/data/ticketsdata'
+import type { FC } from 'react';
 
+import type { TicketsCardType } from '../../../lib/types/ticketCardType';
 
-export default function MapTicketCard(){
-     //const splicedTicketData = TicketsData.splice(0, 4)
-    return (
-      <div className="h-[30rem] grid grid-cols-2 justify-center">
-        
-       
+import TicketsCard from '@/components/ui/TicketsCard'
+import {firstCard_header, secondCard_header} from '@/data/ticketsdata'
+
+type MapTicketCardProps = {
+  firstCardData: TicketsCardType[],
+  secondCardData: TicketsCardType[]
+};
+
+ const MapTicketCard: FC<MapTicketCardProps> = ({ firstCardData, secondCardData }) => {
+return (
+      <div className="h-[30rem] flex-row justify-center">
       <div className="px-5 py-5">
         <div className="flex flex-col text-center py-5">
-          <h1 className="font-bold">
+          <h1 className="font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] xsm:text-[1.6rem]">
                 {firstCard_header.eventTitle}
             </h1>
-              <h2>
+              <h2 className="font-inter md:text-[1.375rem] sm:text-[1.1rem] xsm:text-[.88rem]">
                 {firstCard_header.eventDate}
               </h2>
         </div>
            
-            {firstCard.map((ticketData, index) => (
+            {firstCardData.map((ticketData, index) => (
               <TicketsCard
               key={index}
+              eventId = {ticketData.eventId}
               eventFloor = {ticketData.eventFloor}
               eventPrice = {ticketData.eventPrice}
               eventFoodAvailability={ticketData.eventFoodAvailability}
               eventBuilding = {ticketData.eventBuilding}
               eventSlotLeft = {ticketData.eventSlotLeft}
               eventTime = {ticketData.eventTime}
+              eventURL = {ticketData.eventURL}
             />
               
             
@@ -41,25 +45,26 @@ export default function MapTicketCard(){
 
       <div className="px-5 py-5">
      <div className="flex flex-col text-center py-5">
-            <h1 className="font-bold">
+            <h1 className="font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] xsm:text-[1.6rem]">
                 {secondCard_header.eventTitle}
             </h1>
-              <h2>
+              <h2 className="font-inter md:text-[1.375rem] sm:text-[1.1rem] xsm:text-[.88rem]">
                 {secondCard_header.eventDate}
               </h2>
         </div>
            
          
-          {secondCard.map((ticketData, index) => (
+          {secondCardData.map((ticketData, index) => (
             <TicketsCard
               key={index}
-             
+              eventId = {ticketData.eventId}
               eventFloor = {ticketData.eventFloor}
               eventPrice = {ticketData.eventPrice}
               eventFoodAvailability={ticketData.eventFoodAvailability}
               eventBuilding={ticketData.eventBuilding}
               eventSlotLeft = {ticketData.eventSlotLeft}
               eventTime = {ticketData.eventTime}
+              eventURL = {ticketData.eventURL}
             />
           ))}
           </div>
@@ -69,3 +74,5 @@ export default function MapTicketCard(){
     )   
      
 }
+
+export default MapTicketCard

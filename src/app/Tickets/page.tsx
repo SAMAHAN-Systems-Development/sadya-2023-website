@@ -1,8 +1,9 @@
 'use client'
 import {useState} from 'react';
 
-import MapTicketCard from '@/components/TicketSection/MapTicketCard'
-import TicketSectionHeader from '@/components/TicketSection/TicketSectionHeader'
+import MapTicketCard from '@/components/Sections/TicketSection/MapTicketCard'
+import SectionUI from '@/components/SectionUI';
+import SectionTitle from '@/components/ui/SectionTitle';
 import {firstCardData, secondCardData} from '@/data/ticketsdata'
 const socket = new WebSocket('wss://sadya2023-backend.onrender.com');
 const Test = () => {
@@ -32,8 +33,14 @@ const Test = () => {
     return (
         
         <div className="h-screen flex flex-col items-center justify-center ">
-                <TicketSectionHeader/>
-                <MapTicketCard firstCardData={firstEventData} secondCardData={secondEventData}/>
+                <SectionUI>
+                    <SectionTitle
+                        subtitle="Grab your E-Tickets now and gain swift, stress-free entry, ensuring you don't miss a moment of the excitement!"
+                        title="PURCHASE E-TICKETS"
+                    />
+                    <MapTicketCard firstCardData={firstEventData} secondCardData={secondEventData}/>
+                </SectionUI>
+                
         </div>
         
     );
