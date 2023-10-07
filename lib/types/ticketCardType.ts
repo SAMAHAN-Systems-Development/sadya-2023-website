@@ -7,4 +7,5 @@ export type TicketsCardProps = {
   eventPrice: number,
   eventSlotLeft: number,
   eventTime: string,
+  eventURL: string,
 };
