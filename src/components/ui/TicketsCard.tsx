@@ -39,11 +39,11 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
                   tabIndex={0}
                   value="1"
               >
-                <div className="md:text-[2.1875rem] sm:text-[1.7475rem] xsm:text-[1.4106rem] flex items-center place-content-start font-bold">
+                <div className="font-londrina md:text-[2.1875rem] sm:text-[1.7475rem] xsm:text-[1.4106rem] flex items-center place-content-start font-bold">
                   {eventFloor}
                 </div>
                 <div className="flex items-center place-content-end h-full">
-                  <div className="md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
+                  <div className="font-inter md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
                       {eventSlotLeft} Slots Left 
                   </div>
                      <div className="md:w-[2.125rem] md:h-[2.1875rem] sm:w-[1.6975rem] sm:h-[1.7475rem] xsm:w-[1.3706rem] xsm:h-[1.4106rem]">
@@ -59,22 +59,25 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
                     </div>
                 </Accordion.Trigger>
               <Accordion.Content className="flex flex-col align-bottom">
-                <div className="flex flex-row">
+                <div className="font-inter flex flex-row">
                   <div className="font-bold md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
                   P{eventPrice}  
                   </div>
                   <div className="mx-2 md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
                     -
                   </div>
-                <div className=" md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
+                <div className="md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
                    {eventFoodAvailability}
                 </div>
                 </div>
                
-                <div className="py-1 md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
-                  {eventBuilding} - {eventTime}
+                <div className="block font-inter md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
+                  {eventBuilding} 
                 </div>
-                <button className="w-full md:h-[2.3244rem] sm:h-[1.8569rem] xsm:h-[1.4988rem] md:text-[1.125rem] sm:text-[.8988rem] xsm:text-[.7256rem] text-[#FFFFFF] bg-lavander hover:bg-lightlavander  hover:outline-[#757575] rounded">
+                <div className="block font-inter md:text-[1.25rem] sm:text-[.9988rem] xsm:text-[.8063rem]">
+                  {eventTime}
+                </div>
+                <button className="w-full font-inter md:h-[2.3244rem] sm:h-[1.8569rem] xsm:h-[1.4988rem] md:text-[1.125rem] sm:text-[.8988rem] xsm:text-[.7256rem] text-[#FFFFFF] bg-lavander hover:bg-lightlavander  hover:outline-[#757575] rounded">
                   Buy Tickets
                 </button>
                
@@ -82,7 +85,7 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
             </Accordion.Item>
         </Accordion.Root>
         </div>
-
+ 
       
 
    
