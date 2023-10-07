@@ -10,9 +10,7 @@ const Test = () => {
     
     const [firstEventData, setFirstEventData] = useState(firstCardData);
     const [secondEventData, setSecondEventData] = useState(secondCardData);
-        // Create WebSocket connection.
 
-        // Listen for messages
         socket.addEventListener('message', function (event) {
            
             const data = JSON.parse(event.data);
