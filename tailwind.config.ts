@@ -21,6 +21,20 @@ const config: Config = {
         inter: 'var(--font-inter)',
         londrina: 'var(--font-londrina)',
       },
+      keyframes: {
+        fadeIn: {
+          from: { opacity: '0' },
+          to: { opacity: '1' },
+        },
+        fadeOut: {
+          from: { opacity: '1' },
+          to: { opacity: '0' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 0.5s ease-in-out',
+        fadeOut: 'fadeOut 0.5s ease-out',
+      },
     },
 
     colors: {
@@ -48,12 +62,14 @@ const config: Config = {
     },
     screens: {
       xsm: '384px',
-      sm: '576px',
+      sm: '576px',  
       md: '768px',
       lg: '992px',
       xl: '1200px',
       '2xl': '1400px',
     },
+
+
   },
   plugins: [
     plugin(function ({
