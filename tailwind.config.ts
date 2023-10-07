@@ -17,9 +17,27 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        inter: 'var(--font-inter)',
+        londrina: 'var(--font-londrina)',
+      },
+      keyframes: {
+        fadeIn: {
+          from: { opacity: '0' },
+          to: { opacity: '1' },
+        },
+        fadeOut: {
+          from: { opacity: '1' },
+          to: { opacity: '0' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 0.5s ease-in-out',
+        fadeOut: 'fadeOut 0.5s ease-out',
+      },
     },
+
     colors: {
-      // examples only, change after ui is finalized | alpha values allows opacity ex: blue/50
       blue: 'rgb(var(--color-blue) / <alpha-value>)',
       orange: 'rgb(var(--color-orange) / <alpha-value>)',
       black: 'rgb(var(--color-black) / <alpha-value>)',
@@ -30,6 +48,7 @@ const config: Config = {
       lightgold: 'rgb(var(--color-light-gold) / <alpha-value>)',
       lavander: 'rgb(var(--color-lavander) / <alpha-value>)',
       lightlavander: 'rgb(var(--color-light-lavander) / <alpha-value>)',
+      crimson: 'rgb(var(--color-crimson) / <alpha-value>)',
     },
     container: {
       center: true,
@@ -43,12 +62,14 @@ const config: Config = {
     },
     screens: {
       xsm: '384px',
-      sm: '576px',
+      sm: '576px',  
       md: '768px',
       lg: '992px',
       xl: '1200px',
       '2xl': '1400px',
     },
+
+
   },
   plugins: [
     plugin(function ({
