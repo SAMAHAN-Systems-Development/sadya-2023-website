@@ -10,8 +10,8 @@ type MainButtonProps = {
 
 const buttonVariants = cva(
     [
-      'inline-flex items-center gap-[0.625rem] px-[2.1875rem] py-[0.9375rem] sm:px-[1.75rem] sm:py-[0.75rem] xsm:px-[1.75rem] xsm:py-[0.75rem] overflow-hidden justify-center relative cursor-pointer shadow-lg ',
-      'font-inter w-fit mt-[-0.0625rem] tracking-[0] font-bold leading-[normal] whitespace-nowrap relative text-[1.25rem] xsm:text-[1rem] sm:text-[1rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.25rem] 2xl:[1.25rem]',
+      'inline-flex items-center gap-[0.625rem] px-[1.75rem] py-[0.75rem] sm:px-[2.1875rem] sm:py-[0.9375rem] overflow-hidden justify-center relative cursor-pointer shadow-lg ',
+      'font-inter w-fit mt-[-0.0625rem] tracking-[0] font-bold leading-[normal] whitespace-nowrap relative text-[1rem] sm:text-[1.25rem]',
     ],
     {
       variants: { 
