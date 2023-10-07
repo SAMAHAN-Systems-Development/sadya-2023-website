@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
-import ActivitiesCarousel from '@/components/ui/ActivitiesCarousel';
+
 import "@splidejs/react-splide/css";
+
+import ActivitiesCarousel from '@/components/ui/ActivitiesCarousel';
 
 
 export const metadata: Metadata = {

@@ -11,7 +11,7 @@ const ActivitiesCard: React.FC<EventDataTypes> = ({
 }) => {
     return (
         <div className="flex justify-center">
-            <div className="inline-flex flex-col w-[27.6238rem] h-[36.5975rem] items-center gap-[0.8525rem] relative bg-[#ffffff] rounded-[0.7519rem] shadow-xl">
+            <div className="inline-flex flex-col w-[22.0987rem] h-[29.2781rem] items-center gap-[0.8525rem] relative bg-[#ffffff] rounded-[0.7519rem] shadow-xl sm:h-[27.6238rem] sm:w-[36.5975rem] ">
                 <div className="relative w-[27.6238rem] h-[5.7656rem] mt-[-0.0063rem] py-4 text-[#ff0e69] text-[2.6063rem] text-center leading-[2.6063rem] font-londrina font-black tracking-[0]">
                     {eventDataDay}
                 </div>
@@ -27,4 +27,4 @@ const ActivitiesCard: React.FC<EventDataTypes> = ({
     )
 }
 export default ActivitiesCard
-
+    

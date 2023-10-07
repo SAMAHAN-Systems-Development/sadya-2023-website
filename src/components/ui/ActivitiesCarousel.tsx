@@ -10,19 +10,14 @@ import { EventData } from '@/data/EventData';
 const ActivitiesCarousel = () => {
   const eventDays = ['Day 1', 'Day 2', 'Day 3'];
 
-  const splideOptions = {
-    // type: 'loop',
-    padding: { left: '530px', right: '430px' },
+  return (
+    <div className='carousel-container'>
+      <Splide options={{ padding: { left: '530px', right: '430px' },
     perPage: 1,
     fixedWidth: '', // Adjust the fixed width as needed
     focus: 'center',
     arrows: false,
-    pagination: true, // Disable default pagination
-  };
-
-  return (
-    <div className='carousel-container'>
-      <Splide options={splideOptions}>
+    pagination: true,}}>
         {eventDays.map((day, index) => (
           <SplideSlide key={index}>
             <div className="activities-card">
@@ -52,8 +47,6 @@ const ActivitiesCarousel = () => {
       .carousel-container {
         margin-right: 15px; /* Adjust the margin as needed */
       }
-
-      /* Add spacing between cards */
       .activities-card {
         margin-right: 100px;
       }
@@ -61,7 +54,7 @@ const ActivitiesCarousel = () => {
           position: relative;
           display: flex;
           justify-content: center;
-          margin-top: 10px;
+          margin-top: 30px;
         }
         
         .splide__pagination__page {
