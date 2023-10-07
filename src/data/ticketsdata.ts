@@ -2,67 +2,67 @@ import type { TicketsCardType } from '../../lib/types/ticketCardType';
 
 
 export const firstCard_header = {
-  eventTitle: "STAR SEARCH 2023",
-  eventDate: "October 13, 2023"
+  eventTitle: "BATTLE OF THE BANDS",
+  eventDate: "October 12-13, 2023"
 }
 
 export const secondCard_header = {
-  eventTitle: "BOTB",
-  eventDate: "October 12-13, 2023"
+  eventTitle: "STAR SEARCH",
+  eventDate: "October 13, 2023"
 }
   
+export const firstCardData: TicketsCardType[] = [
+  {
+  eventId: "Event1-F",
+  eventFloor: "4F",
+  eventPrice: 350,
+  eventFoodAvailability: "With Food",
+  eventBuilding: "Martin Hall",
+  eventSlotLeft: 100,
+  eventTime: "5:00-9:00PM",
+  },
+  {
+  eventId: "Event1-5F",
+  eventFloor: "5F",
+  eventPrice: 300,
+  eventFoodAvailability: "Without Food",
+  eventBuilding: "Martin Hall",
+  eventSlotLeft: 100,
+  eventTime: "5:00-9:00PM"
+  },
+  {
+  eventId: "Event1-6F",
+  eventFloor: "6F",
+  eventPrice: 275,
+  eventFoodAvailability: "Without Food",
+  eventBuilding: "Martin Hall",
+  eventSlotLeft: 100,
+  eventTime: "5:00-9:00PM"
+  },
+  {
+  eventId: "Event1-7F",
+  eventFloor: "7F",
+  eventPrice: 250,
+  eventFoodAvailability: "Without Food",
+  eventBuilding: "Martin Hall",
+  eventSlotLeft: 100,
+  eventTime: "5:00-9:00PM",
+  }
+]
   
 // useState
-export const firstCard: TicketsCardType[] = [
+export const secondCardData: TicketsCardType[] = [
   {
-  eventId: "Event1-4F",
+  eventId: "Event2",
   eventFloor: "4F",
   eventPrice: 250,
   eventFoodAvailability: "With Food",
-  eventBuilding: "Martin Bldg",
+  eventBuilding: "Bapa Benny Tudtud Auditorium",
   eventSlotLeft: 100,
-  eventTime: "5:00",
+  eventTime: "6:00 - 9:00 PM",
   },
 ]
 
-export const secondCard: TicketsCardType[] = [
-  {
-  eventId: "Event2-6F",
-  eventFloor: "6F",
-  eventPrice: 250,
-  eventFoodAvailability: "With Food",
-  eventBuilding: "Martin Bldg.",
-  eventSlotLeft: 100,
-  eventTime: "5:00",
-  },
-  {
-  eventId: "Event2-7F",
-  eventFloor: "7F",
-  eventPrice: 250,
-  eventFoodAvailability: "With Food",
-  eventBuilding: "Martin Bldg.",
-  eventSlotLeft: 100,
-  eventTime: "5:00"
-  },
-  {
-  eventId: "Event2-8F",
-  eventFloor: "8F",
-  eventPrice: 250,
-  eventFoodAvailability: "With Food",
-  eventBuilding: "Martin Bldg.",
-  eventSlotLeft: 100,
-  eventTime: "5:00"
-  },
-  {
-  eventId: "Event2-9F",
-  eventFloor: "9F",
-  eventPrice: 250,
-  eventFoodAvailability: "With Food",
-  eventBuilding: "Martin Bldg.",
-  eventSlotLeft: 100,
-  eventTime: "5:00",
-  }
-]
 
 
 
