@@ -47,7 +47,6 @@ const config: Config = {
       },
     },
     screens: {
-      'fold': '280px',
       xsm: '384px',
       sm: '576px',
       md: '768px',
