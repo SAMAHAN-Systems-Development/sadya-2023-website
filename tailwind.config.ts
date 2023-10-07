@@ -54,6 +54,8 @@ const config: Config = {
       xl: '1200px',
       '2xl': '1400px',
     },
+
+
   },
   plugins: [
     plugin(function ({
