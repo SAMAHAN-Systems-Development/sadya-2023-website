@@ -1,13 +1,19 @@
 import React from "react";
 
-import HeadText from "../../components/CurrentlyHappeningSection/HeadText";
-import EventCard from "../../components/CurrentlyHappeningSection/MapEventCard";
+import EventCard from "@/components/CurrentlyHappeningSection/MapEventCard";
+import SectionUI from "../SectionUI";
+import SectionTitle from "../ui/SectionTitle";
+SectionTitle
 
 export default function Home() {
     return (
         <main>
-            <HeadText />
+            <SectionUI>
+            <SectionTitle 
+            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+            title="currently happening"/>
             <EventCard />
+            </SectionUI>
         </main>
     );
 }

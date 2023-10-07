@@ -1,18 +1,9 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import EventCard from '../ui/EventCard';
-import { EventData } from '../../data/EventData';
-import { FilterContents } from '../../utils/datetime';
-
-const cardStyle = {
-  marginTop: "280px",
-};
-const containerStyle = {
-  width: '100%',
-  maxWidth: '1200px',
-  height: '1050px',
-}
+import EventCard from '@/components/ui/EventCard';
+import { EventData } from '@/data/EventData';
+import { FilterContents } from '@/utils/datetime';
 
 export default function MapEventCard() {
   const [filteredEvents, setFilteredEvents] = useState(
@@ -27,25 +18,26 @@ export default function MapEventCard() {
   }, [filteredEvents]);
 
   return (
-    <main className='px-195 mt-10'>
+    <main className='pt-[55px]'>
       {filteredEvents.length === 0 ? (
-        <div className="flex justify-center items-center" style={cardStyle}>
+        <div className="flex justify-center items-center font-inter">
           <p>No Current Events</p>
         </div>
       ) : (
-        <div className='flex justify-center gap-5'>
-        <div style={containerStyle} className='flex flex-wrap justify-center gap-10 mt-10'>
-          {filteredEvents.map((event, index) => (
-            <EventCard
-              key={index}
-              title={event.eventDataEntry}
-              date={event.eventDataDate}
-              description={event.eventDataDescription}
-              floor={event.eventDataFloor}
-            />
-          ))}
-        </div>
-        </div>
+        <div className='flex justify-center'>
+        <div className='grid grid-cols-1 xsm:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-5'>
+            {filteredEvents.map((event, index) => (
+              <EventCard
+                key={index}
+                title={event.eventDataEntry}
+                date={event.eventDataDate}
+                description={event.eventDataDescription}
+                floor={event.eventDataFloor}
+                imageUrl={event.imageUrl}
+              />
+            ))}
+          </div>
+         </div>
       )}
     </main>
   );
