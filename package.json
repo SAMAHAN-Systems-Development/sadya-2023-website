@@ -19,6 +19,7 @@
     "autoprefixer": "10.4.15",
     "class-variance-authority": "^0.7.0",
     "commitlint": "^17.7.1",
+    "dayjs": "^1.11.10",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
     "postcss": "8.4.29",
@@ -58,5 +59,8 @@
       "eslint --fix --max-warnings=-1",
       "prettier --write"
     ]
+  },
+  "engines": {
+    "node": ">=16 <20"
   }
 }

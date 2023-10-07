@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
+import ActivitiesCarousel from '@/components/ui/ActivitiesCarousel';
+import "@splidejs/react-splide/css";
 
-import ActivitiesCard from '@/components/ui/ActivitiesCard';
 
 export const metadata: Metadata = {
   title: 'Sadya 2023',
@@ -8,9 +9,10 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+
   return (
     <main>
-      <ActivitiesCard/>
+      <ActivitiesCarousel/>
     </main>
   );
 }

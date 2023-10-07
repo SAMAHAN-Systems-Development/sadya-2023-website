@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
   --color-blue: 0 28 121;
   --color-orange: 237 117 31;
   --color-black: 51 51 51;
   --color-white: 255 255 255;
+  --color-hover-grey: 224 224 224;
   --color-grey: 204 204 204;
   --color-light-grey: 221 221 221;
   --color-light-gold: 254 245 172;
+  --color-lavander: 148 66 255;
+  --color-light-lavander: 165 95 255;
+  --color-crimson: 255 14 105;
 }
 
 @media (prefers-color-scheme: dark) {

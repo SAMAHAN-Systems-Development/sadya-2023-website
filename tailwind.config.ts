@@ -17,16 +17,24 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        inter: 'var(--font-inter)',
+        londrina: 'var(--font-londrina)',
+      },
     },
+
     colors: {
-      // examples only, change after ui is finalized | alpha values allows opacity ex: blue/50
       blue: 'rgb(var(--color-blue) / <alpha-value>)',
       orange: 'rgb(var(--color-orange) / <alpha-value>)',
       black: 'rgb(var(--color-black) / <alpha-value>)',
       white: 'rgb(var(--color-white) / <alpha-value>)',
       grey: 'rgb(var(--color-grey) / <alpha-value>)',
+      hovergrey: 'rgb(var(--color-hover-grey) / <alpha-value>)',
       lightgrey: 'rgb(var(--color-light-grey) / <alpha-value>)',
-      lightgold: 'rgb(var(--color-light-gold) / <alpha-value>)'
+      lightgold: 'rgb(var(--color-light-gold) / <alpha-value>)',
+      lavander: 'rgb(var(--color-lavander) / <alpha-value>)',
+      lightlavander: 'rgb(var(--color-light-lavander) / <alpha-value>)',
+      crimson: 'rgb(var(--color-crimson) / <alpha-value>)',
     },
     container: {
       center: true,
