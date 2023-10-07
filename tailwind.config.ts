@@ -21,6 +21,20 @@ const config: Config = {
         inter: 'var(--font-inter)',
         londrina: 'var(--font-londrina)',
       },
+      keyframes: {
+        fadeIn: {
+          from: { opacity: '0' },
+          to: { opacity: '1' },
+        },
+        fadeOut: {
+          from: { opacity: '1' },
+          to: { opacity: '0' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 0.5s ease-in-out',
+        fadeOut: 'fadeOut 0.5s ease-out',
+      },
     },
 
     colors: {
