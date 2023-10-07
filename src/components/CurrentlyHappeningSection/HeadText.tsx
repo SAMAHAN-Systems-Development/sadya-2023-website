@@ -4,12 +4,10 @@ export default function HeadText() {
     return (
         <main>
             <div className="flex flex-col justify-center items-center">
-                <p className="flex uppercase text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl
-                pt-20 px-8 sm:px-8 lg:px-20 xl:px-24">
+                <p className="flex uppercase text-center xsm:text-[68px] text-[15px] md:text-[85px]">
                     currently happening
                 </p>
-                <p className="text-center text-xs sm:text-xs md:text-sm lg:text-base xl:text-base
-                pt-2 px-20 sm:px-20 md:px-16 lg:px-16 xl:px-24">
+                <p className="text-center xsm:text-[17px] sm:text-[22px] md:text-[22px]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                 </p>
             </div>

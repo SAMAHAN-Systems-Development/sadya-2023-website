@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import timezone from 'dayjs/plugin/timezone';
 import utc from 'dayjs/plugin/utc';
-import { EventDataTypes } from '../../lib/types/EventDataTypes';
+import type { EventDataTypes } from "lib/types/EventDataTypes";
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
