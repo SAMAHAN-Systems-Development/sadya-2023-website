@@ -35,7 +35,7 @@ const TicketSection = () => {
   });
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center">
       <SectionUI>
         <SectionTitle
           subtitle="Grab your E-Tickets now and gain swift, stress-free entry, ensuring you don't miss a moment of the excitement!"

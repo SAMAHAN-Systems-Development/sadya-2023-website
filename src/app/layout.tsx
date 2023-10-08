@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 
 import '@/styles/globals.css';
 
+import Footer from '@/components/ui/Footer';
 import { inter, londrina } from '@/styles/fonts';
 
 export const metadata: Metadata = {
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${londrina.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

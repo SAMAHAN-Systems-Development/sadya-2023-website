@@ -26,11 +26,11 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
   return (
     <div className="w-full flex justify-center align-middle">
       <Accordion.Root
-        className="md:w-[25rem] sm:w-[19.9737rem] w-[16.1231rem] justify-center rounded-md shadow-[.3125rem_.625rem_.3125rem] shadow-black/10 px-3 py-3"
+        className="bg-white md:w-[25rem] sm:w-[19.9737rem] w-[16.1231rem] justify-center rounded-md shadow-[.3125rem_.625rem_.3125rem] shadow-black/10 px-3 py-3 mb-3"
         type="single"
         collapsible
       >
-        <Accordion.Item className="AccordionItem " value="item-1">
+        <Accordion.Item className="AccordionItem" value="item-1">
           <Accordion.Trigger
             className="w-full grid grid-cols-2"
             onClick={handleAccordionClick}

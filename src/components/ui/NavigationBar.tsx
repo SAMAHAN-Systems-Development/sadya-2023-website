@@ -47,7 +47,7 @@ const NavigationBar = () => {
         isNavBarVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
-      <div className="relative w-[98.4px] h-[64px] sm:w-[123px] sm:h-[80px] leading-normal">
+      <div className="relative w-[78.4px] h-[44px] sm:w-[123px] sm:h-[80px] leading-normal">
         <Image
           className="absolute "
           alt="Sadya LOGOTYPE"

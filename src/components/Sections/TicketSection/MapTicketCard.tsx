@@ -15,7 +15,7 @@ const MapTicketCard: FC<MapTicketCardProps> = ({
   secondCardData,
 }) => {
   return (
-    <div className="h-[30rem] flex-row justify-center">
+    <div className="h-fit flex-row justify-center">
       <div className="px-5 py-5">
         <div className="flex flex-col text-center py-5">
           <h1 className="font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] text-[1.6rem]">
