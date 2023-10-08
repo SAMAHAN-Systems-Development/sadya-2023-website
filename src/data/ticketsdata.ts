@@ -18,7 +18,7 @@ export const firstCardData: TicketsCardProps[] = [
   eventFoodAvailability: "With Drinks",
   eventBuilding: "Martin Hall",
   eventSlotLeft: 1000,
-  eventTime: "5:00-9:00PM",
+  eventTime: "5:00PM - 9:00PM",
   eventURL: "https://form.jotform.com/232793628503461/prefill/65218df66433388445e7a49a8121",
   },
   {
@@ -28,7 +28,7 @@ export const firstCardData: TicketsCardProps[] = [
   eventFoodAvailability: "Without Food",
   eventBuilding: "Martin Hall",
   eventSlotLeft: 100,
-  eventTime: "5:00-9:00PM",
+  eventTime: "5:00PM - 9:00PM",
   eventURL: 'https://form.jotform.com/232793628503461/prefill/65218e2e363039d7fd6a5d640e8c'
   },
   {
@@ -38,7 +38,7 @@ export const firstCardData: TicketsCardProps[] = [
   eventFoodAvailability: "Without Food",
   eventBuilding: "Martin Hall",
   eventSlotLeft: 200,
-  eventTime: "5:00-9:00PM",
+  eventTime: "5:00PM - 9:00PM",
   eventURL: 'https://form.jotform.com/232793628503461/prefill/65218e3f363039d88fa82267554c'
   },
 ]
@@ -51,7 +51,7 @@ export const secondCardData: TicketsCardProps[] = [
   eventFoodAvailability: "Without Food",
   eventBuilding: "Bapa Benny Tudtud Auditorium",
   eventSlotLeft: 300,
-  eventTime: "6:00 - 9:00 PM",
+  eventTime: "6:00PM - 9:00 PM",
   eventURL: 'https://form.jotform.com/232793414644056',
   },
 ]

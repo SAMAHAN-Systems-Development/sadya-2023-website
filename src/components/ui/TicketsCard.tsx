@@ -26,7 +26,7 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
   return (
     <div className="w-full flex justify-center align-middle">
       <Accordion.Root
-        className="bg-white md:w-[25rem] sm:w-[19.9737rem] w-[16.1231rem] justify-center rounded-md shadow-[.3125rem_.625rem_.3125rem] shadow-black/10 px-3 py-3 mb-3"
+        className="bg-white md:w-[25rem] sm:w-[19.9737rem] w-[16.1231rem] justify-center rounded-2xl shadow-[.3125rem_.625rem_.3125rem] shadow-black/10 px-5 py-1 mb-3"
         type="single"
         collapsible
       >
@@ -79,7 +79,7 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
               {eventTime}
             </div>
             <Link href={eventURL}>
-              <button className="w-full font-inter md:h-[2.3244rem] sm:h-[1.8569rem] h-[1.4988rem] md:text-[1.125rem] sm:text-[.8988rem] text-[.7256rem] text-[#FFFFFF] bg-lavander hover:bg-lightlavander  hover:outline-[#757575] rounded">
+              <button className="w-full font-inter md:h-[2.3244rem] sm:h-[1.8569rem] h-[1.4988rem] md:text-[1.125rem] sm:text-[.8988rem] text-[.7256rem] text-[#FFFFFF] bg-lavander hover:bg-lightlavander  hover:outline-[#757575] rounded-[.2075rem] my-3">
                 Buy Tickets
               </button>
             </Link>

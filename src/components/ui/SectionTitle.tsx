@@ -13,7 +13,7 @@ const SectionTitle: React.FC<TextProps> = ({ subtitle, title }) => {
           {title}
         </h1>
         <div className="w-full md:w-[30.9rem] lg:w-[31.188rem] xl:w-[31.188rem]">
-          <p className="text-xs sm:text-base font-normal font-inter text-black normal-case mt-2">
+          <p className="md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem] sm:text-base font-normal font-inter text-black normal-case mt-2">
             {subtitle}
           </p>
         </div>
