@@ -14,17 +14,17 @@ const Footer = () => {
         <h3>Developed by SAMAHAN Systems Development & SCT</h3>
         <div className="flex sm:pt-7 pt-4 gap-3 md:text-3xl sm:text-2xl text-xl">
           <Link
-            href={'https://www.facebook.com/SAMAHANSysDev'}
+            href={'https://www.facebook.com/AdDUSAMAHAN'}
           >
             <BsFacebook />
           </Link>
           <Link
-            href={'https://twitter.com/SAMAHANSysDev'}
+            href={'https://twitter.com/addusamahan'}
           >
             <BsTwitter />
           </Link>
           <Link
-            href={'https://www.instagram.com/samahansysdev/'}
+            href={'https://www.instagram.com/samahan_ateneo'}
           >
             <BsInstagram />
           </Link>
@@ -34,22 +34,25 @@ const Footer = () => {
         <h2 className="font-extrabold md:text-3xl sm:text-4xl text-2xl text-center font-londrina">
           SADYA 2023
         </h2>
-        <div className="flex gap-2">
-          <Image
-            src={SysEgg}
-            className="sm:h-14 xsm:h-12 h-9 w-auto object-contain"
-            placeholder="blur"
-            draggable={false}
-            alt="/"
-          />
-          <Image
-            src={SysDevLogo}
-            className="sm:h-14 xsm:h-12 h-9 w-auto object-contain"
-            placeholder="blur"
-            draggable={false}
-            alt="/"
-          />
-        </div>
+        <Link href="/about-the-developers">
+          <div className="flex gap-2">
+            
+            <Image
+              src={SysEgg}
+              className="sm:h-14 xsm:h-12 h-9 w-auto object-contain"
+              placeholder="blur"
+              draggable={false}
+              alt="/"
+            />
+            <Image
+              src={SysDevLogo}
+              className="sm:h-14 xsm:h-12 h-9 w-auto object-contain"
+              placeholder="blur"
+              draggable={false}
+              alt="/"
+            />
+          </div>
+        </Link>
       </div>
     </div>
   );
