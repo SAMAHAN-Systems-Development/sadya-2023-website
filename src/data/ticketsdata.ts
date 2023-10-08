@@ -1,5 +1,6 @@
-import type { TicketsCardType } from '../../lib/types/ticketCardType';
+// import type { TicketsCardType } from '../../lib/types/ticketCardType';
 
+import type { TicketsCardProps } from "lib/types/ticketCardType"
 
 export const firstCard_header = {
   eventTitle: "BATTLE OF THE BANDS",
@@ -11,7 +12,7 @@ export const secondCard_header = {
   eventDate: "October 13, 2023"
 }
   
-export const firstCardData: TicketsCardType[] = [
+export const firstCardData: TicketsCardProps[] = [
   {
   eventId: "event1_4f_slots",
   eventFloor: "4F",
@@ -44,7 +45,7 @@ export const firstCardData: TicketsCardType[] = [
   },
 ]
   
-export const secondCardData: TicketsCardType[] = [
+export const secondCardData: TicketsCardProps[] = [
   {
   eventId: "event2_slots",
   eventFloor: "4F",

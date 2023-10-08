@@ -1,6 +1,7 @@
 import React from 'react'
+
 import SectionUI from '@/components/SectionUI'
-import ActivitiesCarousel from '@components/ui/ActivitiesCarousel'
+import ActivitiesCarousel from '@/components/ui/ActivitiesCarousel'
 
 
 const CarouselSection = () => {

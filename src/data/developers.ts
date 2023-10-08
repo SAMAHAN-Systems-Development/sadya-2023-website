@@ -1,6 +1,7 @@
 import type { DeveloperCardProps } from 'lib/types/developersDatatype';
 import Angelli from 'public/assets/images/developers/Angelli.png';
 import Francis from 'public/assets/images/developers/Francis.png';
+import gaten from 'public/assets/images/developers/gaten.png';
 import Jiyo from 'public/assets/images/developers/Jiyo.png';
 import Julienne from 'public/assets/images/developers/Julienne.png';
 import Mariel from 'public/assets/images/developers/Mariel.png';
@@ -10,7 +11,6 @@ import Maverick from 'public/assets/images/developers/Maverick.png';
 import MiguelDai from 'public/assets/images/developers/MigsDai.png';
 import LouisMiguel from 'public/assets/images/developers/MigsPau.png';
 import Paolo from 'public/assets/images/developers/Paolo.png';
-import gaten from 'public/assets/images/developers/gaten.png';
 
 
 export const Developers: DeveloperCardProps[] = [
@@ -88,7 +88,7 @@ export const Developers: DeveloperCardProps[] = [
   },
   {
     course: 'BS Information Technology',
-    developerType: 'Front-End Developer',
+    developerType: 'Back-End Developer',
     facebook: 'https://web.facebook.com/marvinpaul.eloja',
     fullName: 'Marvin Paul Eloja',
     imageUrl: Marvin,
