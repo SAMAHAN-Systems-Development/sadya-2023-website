@@ -18,7 +18,7 @@ const MapTicketCard: FC<MapTicketCardProps> = ({
     <div className="h-fit flex-row justify-center">
       <div className="px-5 py-5">
         <div className="flex flex-col text-center py-5">
-          <h1 className="font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] text-[1.6rem]">
+          <h1 className="leading-none font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] text-[1.6rem]">
             {firstCard_header.eventTitle}
           </h1>
           <h2 className="font-inter md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem]">
@@ -43,7 +43,7 @@ const MapTicketCard: FC<MapTicketCardProps> = ({
 
       <div className="px-5 py-5">
         <div className="flex flex-col text-center py-5">
-          <h1 className="font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] text-[1.6rem]">
+          <h1 className="leading-none font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] text-[1.6rem]">
             {secondCard_header.eventTitle}
           </h1>
           <h2 className="font-inter md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem]">
