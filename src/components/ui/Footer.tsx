@@ -14,17 +14,17 @@ const Footer = () => {
         <h3>Developed by SAMAHAN Systems Development & SCT</h3>
         <div className="flex sm:pt-7 pt-4 gap-3 md:text-3xl sm:text-2xl text-xl">
           <Link
-            href={'https://youtube.com/shorts/GCh_bKQ18w8?si=hqPLgaz0zdQEigcW'}
+            href={'https://www.facebook.com/SAMAHANSysDev'}
           >
             <BsFacebook />
           </Link>
           <Link
-            href={'https://youtube.com/shorts/GCh_bKQ18w8?si=hqPLgaz0zdQEigcW'}
+            href={'https://twitter.com/SAMAHANSysDev'}
           >
             <BsTwitter />
           </Link>
           <Link
-            href={'https://youtube.com/shorts/GCh_bKQ18w8?si=hqPLgaz0zdQEigcW'}
+            href={'https://www.instagram.com/samahansysdev/'}
           >
             <BsInstagram />
           </Link>

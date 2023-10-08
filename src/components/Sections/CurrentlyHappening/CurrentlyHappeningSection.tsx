@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <SectionUI>
       <SectionTitle
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+        subtitle="Checkout the current events happening in real time during October 12-14!"
         title="currently happening"
       />
       <EventCards />

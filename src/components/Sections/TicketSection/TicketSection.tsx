@@ -33,7 +33,7 @@ const Test = () => {
         <div className="h-screen flex flex-col items-center justify-center ">
                 <SectionUI>
                     <SectionTitle
-                        subtitle="Grab your E-Tickets now and gain swift, stress-free entry, ensuring you don't miss a moment of the excitement!"
+                        subtitle="Grab your E-Tickets now, ensuring you don't miss a moment of the excitement! Tickets selling closes on October 11 for BOTB and October 12 for Star Search."
                         title="PURCHASE E-TICKETS"
                     />
                     <MapTicketCard firstCardData={firstEventData} secondCardData={secondEventData}/>
