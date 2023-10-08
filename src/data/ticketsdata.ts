@@ -1,5 +1,3 @@
-// import type { TicketsCardType } from '../../lib/types/ticketCardType';
-
 import type { TicketsCardProps } from "lib/types/ticketCardType"
 
 export const firstCard_header = {
