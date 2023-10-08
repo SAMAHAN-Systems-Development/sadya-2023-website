@@ -19,6 +19,7 @@ const ActivitiesCarousel = () => {
         focus: 'center',
         gap: '3.125rem',
         arrows: false,
+        trimSpace: false,
         // autoWidth: true,
         pagination: true,
         breakpoints: {
