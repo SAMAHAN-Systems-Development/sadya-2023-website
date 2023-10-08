@@ -59,7 +59,9 @@ const NavigationBar = () => {
         </div>
       </Link>
       <div>
-        <MainButton label="GET TICKETS" type="get-tickets" />
+        <Link href="/#ticket-purchase">
+          <MainButton label="GET TICKETS" type="get-tickets" />
+        </Link>
       </div>
     </div>
   );
