@@ -1,13 +1,13 @@
-'use client'
-import { useCallback, useEffect, useRef, useState } from "react";
-import Image from "next/image";
+'use client';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { FaRegWindowMinimize } from 'react-icons/fa6';
+import Image from 'next/image';
 
-import SadyaLogo from "public/assets/images/SADYA LOGOTYPE 3D 1.png";
+import SadyaLogo from 'public/assets/images/SADYA LOGOTYPE 3D 1.png';
 
-import MainButton from "@/components/ui/MainButton";
-import { FaRegWindowMinimize } from "react-icons/fa6";
+import MainButton from '@/components/ui/MainButton';
 
-FaRegWindowMinimize
+FaRegWindowMinimize;
 const NavigationBar = () => {
   const navigationRef = useRef<HTMLDivElement>(null);
   const lastScrollPosition = useRef(0);
@@ -33,18 +33,19 @@ const NavigationBar = () => {
   }, []);
 
   useEffect(() => {
-    window.addEventListener("scroll", scrollListener);
+    window.addEventListener('scroll', scrollListener);
 
     return () => {
-      window.removeEventListener("scroll", scrollListener);
+      window.removeEventListener('scroll', scrollListener);
     };
   }, [scrollListener]);
 
   return (
     <div
       ref={navigationRef}
-      className={`sticky top-0 flex items-start justify-between px-6 py-4 bg-gradient-to-b from-white via-white-50 to-transparent h-[11.25rem] transition-opacity ${isNavBarVisible ? "opacity-100" : "opacity-0"
-        }`}
+      className={`sticky top-0 flex items-start justify-between px-6 py-4 bg-gradient-to-b from-white via-white-50 to-transparent h-[11.25rem] transition-opacity ${
+        isNavBarVisible ? 'opacity-100' : 'opacity-0'
+      }`}
     >
       <div className="relative w-[98.4px] h-[64px] sm:w-[123px] sm:h-[80px] leading-normal">
         <Image
