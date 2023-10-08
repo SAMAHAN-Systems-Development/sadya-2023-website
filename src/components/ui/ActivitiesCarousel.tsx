@@ -55,7 +55,6 @@ const ActivitiesCarousel = () => {
                     )
                   )}
                 </div>
-                *
               </ActivitiesCard>
             </div>
           </SplideSlide>
