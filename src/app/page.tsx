@@ -1,21 +1,21 @@
 import type { Metadata } from 'next';
 
-import "@splidejs/react-splide/css";
+import CurrentlyHappeningSection from '@/components/Sections/CurrentlyHappening/CurrentlyHappeningSection';
 
-import HomePage from '@/components/Home/HomePage';
-import ActivitiesCarousel from '@/components/ui/ActivitiesCarousel';
-
+import TicketSection from '@/components/Sections/TicketSection/TicketSection';
+import NavigationBar from '@/components/ui/NavigationBar';
 
 export const metadata: Metadata = {
-  title: 'Sadya 2023',
-  description: '',
+  title: 'SADYA 2023: The Ateneo U-Fest',
+  description: 'The official Sadya 2023 Website of the Ateneo de Davao University',
 };
 
 export default function Home() {
   return (
-    <main>
-      <HomePage />
-      <ActivitiesCarousel/>
-    </main>
+    <div className="bg-white bg-gradient-to-t from-lightlavander relative">
+      <NavigationBar />
+      <CurrentlyHappeningSection />
+      <TicketSection />
+    </div>
   );
 }

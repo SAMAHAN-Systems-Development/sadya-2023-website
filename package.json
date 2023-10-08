@@ -12,7 +12,8 @@
     "commitlint": "commitlint --edit"
   },
   "dependencies": {
-    "@splidejs/react-splide": "^0.7.12",
+    "@radix-ui/primitive": "^1.0.1",
+    "@radix-ui/react-accordion": "^1.1.2",
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
@@ -21,7 +22,7 @@
     "commitlint": "^17.7.1",
     "dayjs": "^1.11.10",
     "eslint-config-next": "13.4.19",
-    "next": "13.4.19",
+    "next": "^13.5.4",
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",

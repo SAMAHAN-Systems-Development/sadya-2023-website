@@ -1,14 +1,11 @@
+import type { EventDataTypes } from "lib/types/EventDataTypes";
 import sampleImg from 'public/assets/images/sampleImg.png'
-
-// eslint-disable-next-line no-restricted-imports
-import type { EventDataTypes } from "../../lib/types/EventDataTypes";
 
 export const EventData: EventDataTypes[] = [
   {
     imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDate: 'October 12, 2023',
-    eventDataDay: 'Day 1',
     eventDataDescription: 'Banner Making',
     eventDataFloor: 'Martin Hall - 6th Floor - 9:00AM to 12:00PM',
     start: 'October 12 2023 9:00 AM',
@@ -18,7 +15,6 @@ export const EventData: EventDataTypes[] = [
     imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDate: 'October 12, 2023',
-    eventDataDay: 'Day 1',
     eventDataDescription: 'Dance Sport',
     eventDataFloor: 'Martin Hall - 4th Floor - 9:00AM to 12:00PM',
     start: 'October 12 2023 9:00 AM',
@@ -28,7 +24,6 @@ export const EventData: EventDataTypes[] = [
     imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDate: 'October 12, 2023',
-    eventDataDay: 'Day 1',
     eventDataDescription: 'Bench Cheerings',
     eventDataFloor: 'Ateneo de Davao University, Jacinto Campus - 9:00AM to 12:00PM',
     start: 'October 12 2023 9:00 AM',
@@ -38,7 +33,6 @@ export const EventData: EventDataTypes[] = [
     imageUrl: sampleImg,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDate: 'October 12, 2023',
-    eventDataDay: 'Day 1',
     eventDataDescription: 'Battle of the Bands',
     eventDataFloor: 'Martin Hall - 4th Floor - 5:00PM to 9:00PM',
     start: 'October 12 2023 5:00 PM',
@@ -48,7 +42,6 @@ export const EventData: EventDataTypes[] = [
     imageUrl: sampleImg,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDate: 'October 13, 2023',
-    eventDataDay: 'Day 2',
     eventDataDescription: 'Star Search',
     eventDataFloor: 'Bapa Benny Tudtud Auditorium - 6:00PM to 9:00PM',
     start: 'October 13, 2023 6:00 PM',
@@ -58,7 +51,6 @@ export const EventData: EventDataTypes[] = [
     imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDate: 'October 13, 2023',
-    eventDataDay: 'Day 2',
     eventDataDescription: 'Creative Series: Short Film',
     eventDataFloor: 'Martin Hall - 4th Floor - 2:00M to 4:00PM',
     start: 'October 13 2023 2:00 PM',
@@ -68,7 +60,6 @@ export const EventData: EventDataTypes[] = [
     imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDate: 'October 13, 2023',
-    eventDataDay: 'Day 2',
     eventDataDescription: 'Sayawtenista',
     eventDataFloor: 'Martin Hall - 4th Floor - 5:00 to 9:00PM',
     start: 'October 14 2023 5:00 PM',
@@ -78,7 +69,6 @@ export const EventData: EventDataTypes[] = [
     imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDate: 'October 12-14, 2023',
-    eventDataDay: 'Day 1',
     eventDataDescription: 'COA-D Gimikan',
     eventDataFloor: 'Arrupe Hall - 1st Floor - 3:00PM to 5:00PM',
     start: 'October 12 2023 3:00 PM',
@@ -87,8 +77,7 @@ export const EventData: EventDataTypes[] = [
   {
     imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
-    eventDataDate: 'October 13-14, 2023',
-    eventDataDay: 'Day 2',
+    eventDataDate: 'October 12-14, 2023',
     eventDataDescription: 'COA-D Gimikan',
     eventDataFloor: 'Arrupe Hall - 1st Floor - 3:00PM to 5:00PM',
     start: 'October 13 2023 3:00 PM',
@@ -97,8 +86,7 @@ export const EventData: EventDataTypes[] = [
   {
     imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
-    eventDataDate: 'October 14, 2023',
-    eventDataDay: 'Day 3',
+    eventDataDate: 'October 12-14, 2023',
     eventDataDescription: 'COA-D Gimikan',
     eventDataFloor: 'Arrupe Hall - 1st Floor - 3:00PM to 5:00PM',
     start: 'October 14 2023 3:00 PM',

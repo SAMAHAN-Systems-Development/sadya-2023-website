@@ -8,12 +8,12 @@ type TextProps = {
 const SectionTitle: React.FC<TextProps> = ({ subtitle, title }) => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center text-center">
-        <h1 className="font-semibold text-crimson font-londrina text-2xl sm:text-8xl uppercase">
+      <div className="flex flex-col items-center justify-center text-center p-4">
+        <h1 className="font-semibold text-crimson font-londrina text-5xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-8xl uppercase">
           {title}
         </h1>
-        <div className="w-[31.188rem]">
-          <p className="text-xs sm:text-base font-normal font-inter text-black normal-case mt-2 text-center">
+        <div className="w-full md:w-[30.9rem] lg:w-[31.188rem] xl:w-[31.188rem]">
+          <p className="text-xs sm:text-base font-normal font-inter text-black normal-case mt-2">
             {subtitle}
           </p>
         </div>
