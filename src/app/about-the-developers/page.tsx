@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-        <NavigationBar/>
+        <NavigationBar isDevPage={true}/>
         <DeveloperSection/>
     </>
   )

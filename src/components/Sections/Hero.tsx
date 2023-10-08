@@ -7,7 +7,7 @@ import imgSrc from 'public/assets/images/MainLogo.png';
 const Hero = () => {
  
   return (
-    <div className="justify-end w-full  lg:h-[45rem] md:h-[42rem] sm:h-[30rem] h-[18rem] flex flex-col">
+    <div className="justify-end w-full  lg:h-[55rem] md:h-[52rem] sm:h-[45rem] h-[32rem] flex flex-col lg:pb-14 md:pb-10 pb-5">
       <div className="absolute top-0 w-full lg:h-[55rem] md:h-[50rem] sm:h-[38rem] h-[24rem]"> 
             <Image src={imgSrc} 
             alt="placeholder_banner" 
