@@ -10,7 +10,7 @@ import NavigationBar from '@/components/ui/NavigationBar';
 export const metadata: Metadata = {
   title: 'SADYA 2023: The Ateneo U-Fest',
   description:
-    'The official Sadya 2023 Website of the Ateneo de Davao University',
+    'The official Sadya 2023 Website of the Ateneo de Davao University.',
   metadataBase: new URL("https://sadya-2023.onrender.com/")
 };
 
