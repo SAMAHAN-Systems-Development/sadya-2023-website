@@ -1,5 +1,8 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
+
+import cloud from 'public/assets/images/SMOKE - WEBSITE FOOTER.png';
 
 import MapTicketCard from '@/components/Sections/TicketSection/MapTicketCard';
 import SectionUI from '@/components/SectionUI';
@@ -46,6 +49,9 @@ const TicketSection = () => {
           secondCardData={secondEventData}
         />
       </SectionUI>
+      <div className="relative w-full h-[227px] bottom-0">
+        <Image src={cloud} alt="cloud" fill className="object-cover" />
+      </div>
     </div>
   );
 };
