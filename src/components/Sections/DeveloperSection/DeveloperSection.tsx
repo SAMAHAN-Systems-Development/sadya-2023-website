@@ -10,7 +10,7 @@ const DeveloperSection = () => {
     <SectionUI>
       <div className="pt-20 flex flex-col items-center">
         <SectionTitle
-          title="samahan sysdev team"
+          title="SAMAHAN SysDev Team"
           subtitle="Explore innovation at its core – meet the talented developers behind the scenes."
         />
         <div className="pt-20 grid grid-cols-1 lg:grid-cols-2 gap-16">
