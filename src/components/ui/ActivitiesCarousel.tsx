@@ -1,4 +1,3 @@
-
 'use client'
 import React from 'react';
 
@@ -12,12 +11,23 @@ const ActivitiesCarousel = () => {
 
   return (
     <div className='carousel-container'>
-      <Splide options={{ padding: { left: '530px', right: '430px' },
-    perPage: 1,
-    fixedWidth: '', // Adjust the fixed width as needed
-    focus: 'center',
-    arrows: false,
-    pagination: true,}}>
+      <Splide options={{
+        padding: { left: '33.125rem', right: '33.125rem' },
+        perPage: 1,
+        fixedWidth: '', // Adjust the fixed width as needed
+        focus: 'center',
+        gap: '3.125rem',
+        arrows: false,
+        autoWidth: true,
+        pagination: true,
+        breakpoints: {
+          640: { // Adjust the breakpoint for mobile devices
+            perPage: 1, // Number of slides to show on mobile
+            gap: '1rem', // Gap for mobile devices
+            autoWidth: false, // Disable auto width for mobile
+          },
+        }
+      }}>
         {eventDays.map((day, index) => (
           <SplideSlide key={index}>
             <div className="activities-card">
@@ -28,13 +38,13 @@ const ActivitiesCarousel = () => {
                 <div className='flex flex-col items-start text-black '>
                   {EventData.filter((event) => event.eventDataDay === day).map((item, index) => (
                     <div key={index} className="flex flex-col">
-                      <div className="uppercase mb-1 mt-2 w-[350px] font-londrina font-black text-[#323232] text-[32.1px] tracking-[0] leading-[normal] whitespace-normal">
+                      <div className="uppercase mb-1 mt-2 sm:w-[350px] w-[285.56px] font-londrina font-black text-[#323232] sm:text-[32.1px] text-[25.67px] tracking-[0] leading-[normal] whitespace-normal">
                         {item.eventDataDescription}
                       </div>
-                      <div className="w-[350px] font-inter font-medium text-[#323232] text-[12px] tracking-[0] leading-[normal]">
+                      <div className="sm:w-[350px] w-[285.56px] font-inter font-medium text-[#323232] text-[9.63px] tracking-[0] leading-[normal]">
                         {item.eventDataFloor}
                       </div>
-                      <div className="divider w-[350px] h-[0.1875rem] mt-2 mb-2 bg-[#b8b8b8] rounded-[0.7519rem]" />
+                      <div className="divider sm:w-[350px] w-[295.19px] sm:h-[0.1875rem] h-[2.57px] mt-2 mb-2 bg-[#b8b8b8] rounded-[0.7519rem]" />
                     </div>
                   ))}
                 </div>
@@ -43,30 +53,38 @@ const ActivitiesCarousel = () => {
           </SplideSlide>
         ))}
       </Splide>
+
+      {/* Custom pagination */}
       <style jsx global>{`
-      .carousel-container {
-        margin-right: 15px; /* Adjust the margin as needed */
-      }
-      .activities-card {
-        margin-right: 100px;
-      }
+        /* Adjust pagination dot styles */
         .splide__pagination {
           position: relative;
           display: flex;
           justify-content: center;
-          margin-top: 30px;
+          align-items: center; /* Align items to the center */
+          margin-top: 15px; /* Adjust margin for mobile */
         }
         
         .splide__pagination__page {
           width: 10px;
-          height: 10px; 
-          margin: 0 5px; 
-          background-color: #333;
+          height: 10px;
+          margin: 0 5px;
+          background-color: #ffffff;
           border-radius: 50%;
         }
         
         .splide__pagination__page.is-active {
           background-color: #ff0e69;
+        }
+        
+        @media (max-width: 556px) {
+          /* Adjust styles for mobile devices */
+          .carousel-container {
+            padding: 0; /* Remove padding for mobile */
+          }
+          .activities-card {
+            width: 100%; /* Make cards full width for mobile */
+          }
         }
       `}</style>
     </div>
