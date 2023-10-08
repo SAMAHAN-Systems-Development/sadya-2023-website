@@ -27,8 +27,7 @@ const Hero = () => {
              </button>
                   <h3 className="pt-8 font-londrina text-center font-bold md:text-[1.875rem] sm:text-[1.5rem] text-[1.2rem] ">October 12-14, 2023 </h3>
                   <p className="font-inter md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem]">
-                      Lorem ipsum dolor sit amet, consectetur 
-                      adipiscing elit, sed do eiusmod tempor.
+                  Don&apos;t miss out! Grab your tickets for an event filled with joy and excitement.
                   </p>                  
                   </Link>
             </div>
