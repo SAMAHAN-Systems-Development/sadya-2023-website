@@ -41,7 +41,7 @@ const ActivitiesCarousel = () => {
                 eventDataDay={day}
               >
                 <div className="flex flex-col items-start text-black ">
-                  {EventData.filter((event) => event.eventDataDate === day).map(
+                  {EventData.filter((event) => event.eventDataDay === day).map(
                     (item, index) => (
                       <div key={index} className="flex flex-col">
                         <div className="uppercase mb-1 mt-2 sm:w-[350px] w-[285.56px] font-londrina font-black text-[#323232] sm:text-[32.1px] text-[25.67px] tracking-[0] leading-[normal] whitespace-normal">

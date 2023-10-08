@@ -43,7 +43,7 @@ const NavigationBar = () => {
   return (
     <div
       ref={navigationRef}
-      className={`sticky top-0 flex items-start justify-between px-6 py-4 bg-gradient-to-b from-white via-white-50 to-transparent h-[11.25rem] transition-opacity ${
+      className={`sticky z-50 top-0 flex items-start justify-between px-6 py-4 bg-gradient-to-b from-white via-white-50 to-transparent h-[11.25rem] transition-opacity ${
         isNavBarVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
