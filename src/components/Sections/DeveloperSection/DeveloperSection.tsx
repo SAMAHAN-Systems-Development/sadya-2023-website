@@ -2,8 +2,8 @@ import React from 'react';
 
 import SectionUI from '@/components/SectionUI';
 import DeveloperCard from '@/components/ui/DeveloperCard';
-import { Developers } from '@/data/developers';
 import SectionTitle from '@/components/ui/SectionTitle';
+import { Developers } from '@/data/developers';
 
 const DeveloperSection = () => {
   return (

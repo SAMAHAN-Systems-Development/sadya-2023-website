@@ -1,9 +1,9 @@
 import React from 'react';
 
 import EventCards from '@/components/Sections/CurrentlyHappening/MapEventCard';
+
 import SectionUI from '@/components/SectionUI';
 import SectionTitle from '@/components/ui/SectionTitle';
-SectionTitle;
 
 export default function Home() {
   return (
