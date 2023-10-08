@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
+import Link from 'next/link';
 
 import imgSrc from 'public/assets/images/MainLogo.png';
 
@@ -17,6 +18,7 @@ const Hero = () => {
             />
       </div>
       <div className="z-10 flex-col text-center px-8">
+            <Link href="/#ticket-purchase">
              <button className="inline-flex items-center gap-[0.625rem] px-[1.75rem] py-[0.75rem] sm:px-[2.1875rem] sm:py-[0.9375rem] overflow-hidden justify-center 
               cursor-pointer shadow-lg font-inter mt-[-0.0625rem] tracking-[0] font-bold leading-[normal] whitespace-nowrap relative md:text-[1.25rem] sm:text-[1rem] text-[.8rem] bg-lavander text-white hover:bg-lightlavander rounded-[625rem]
              md:w-[12.75rem] md:h-[3.375rem] sm:w-[10.1875rem] sm:h-[2.6875rem] w-[8.175rem] h-[2.1375rem] 
@@ -28,7 +30,7 @@ const Hero = () => {
                       Lorem ipsum dolor sit amet, consectetur 
                       adipiscing elit, sed do eiusmod tempor.
                   </p>                  
- 
+                  </Link>
             </div>
         </div>
 

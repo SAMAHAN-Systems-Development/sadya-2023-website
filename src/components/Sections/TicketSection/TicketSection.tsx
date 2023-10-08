@@ -38,7 +38,7 @@ const TicketSection = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div id="ticket-purchase" className="flex flex-col items-center justify-center">
       <SectionUI>
         <SectionTitle
           subtitle="Grab your E-Tickets now and gain swift, stress-free entry, ensuring you don't miss a moment of the excitement!"

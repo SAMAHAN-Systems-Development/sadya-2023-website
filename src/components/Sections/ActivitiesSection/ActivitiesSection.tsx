@@ -1,8 +1,10 @@
 import React from 'react';
+
 import '@splidejs/react-splide/css';
+
 import SectionUI from '@/components/SectionUI';
-import SectionTitle from '@/components/ui/SectionTitle';
 import ActivitiesCarousel from '@/components/ui/ActivitiesCarousel';
+import SectionTitle from '@/components/ui/SectionTitle';
 
 const ActivitiesSection = () => {
   return (

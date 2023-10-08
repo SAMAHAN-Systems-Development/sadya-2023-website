@@ -46,7 +46,7 @@ export const firstCardData: TicketsCardProps[] = [
 export const secondCardData: TicketsCardProps[] = [
   {
   eventId: "event2_slots",
-  eventFloor: "4F",
+  eventFloor: "1F",
   eventPrice: 50,
   eventFoodAvailability: "Without Food",
   eventBuilding: "Bapa Benny Tudtud Auditorium",
