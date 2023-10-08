@@ -10,18 +10,15 @@ const ActivitiesCarousel = () => {
   const eventDays = ['Day 1', 'Day 2', 'Day 3'];
 
   return (
-    <div className="overflow-hidden">
+    <div className='pt-10'>
       <Splide
         options={{
-          // padding: { left: '33.125rem', right: '33.125rem' },
-          // type: 'loop',
           perPage: 1,
-          fixedWidth: 'auto', // Adjust the fixed width as needed
+          fixedWidth: 'auto',
           focus: 'center',
           gap: '3.125rem',
           arrows: false,
           trimSpace: false,
-          // autoWidth: true,
           pagination: true,
           breakpoints: {
             640: {
@@ -47,7 +44,7 @@ const ActivitiesCarousel = () => {
                         <div className="uppercase mb-1 mt-2 sm:w-[350px] w-[285.56px] font-londrina font-black text-[#323232] sm:text-[32.1px] text-[25.67px] tracking-[0] leading-[normal] whitespace-normal">
                           {item.eventDataDescription}
                         </div>
-                        <div className="sm:w-[350px] w-[285.56px] font-inter font-medium text-[#323232] text-[9.63px] tracking-[0] leading-[normal]">
+                        <div className="sm:w-[350px] w-[285.56px] text-[#323232] text-[9.63px] tracking-[0] leading-[normal]">
                           {item.eventDataFloor}
                         </div>
                         <div className="divider sm:w-[350px] w-[295.19px] sm:h-[0.1875rem] h-[2.57px] mt-2 mb-2 bg-[#b8b8b8] rounded-[0.7519rem]" />
@@ -69,7 +66,11 @@ const ActivitiesCarousel = () => {
           display: flex;
           justify-content: center;
           align-items: center; /* Align items to the center */
-          margin-top: 15px; /* Adjust margin for mobile */
+          margin-top: 2rem; /* Adjust margin for mobile */
+        }
+
+        .splide:not(.is-overflow) .splide__pagination {
+          display: flex;
         }
 
         .splide__pagination__page {

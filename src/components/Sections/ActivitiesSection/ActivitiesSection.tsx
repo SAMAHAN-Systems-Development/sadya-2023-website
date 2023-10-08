@@ -8,7 +8,7 @@ import SectionTitle from '@/components/ui/SectionTitle';
 
 const ActivitiesSection = () => {
   return (
-    <div className="flex justify-center flex-col">
+    <div className="flex justify-center flex-col mt-52">
         <SectionTitle
           title="what's on"
           subtitle="Discover our exciting lineup of daily events and 

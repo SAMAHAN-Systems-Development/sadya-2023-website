@@ -42,7 +42,7 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
               {eventFloor}
             </div>
             <div className="flex items-center place-content-end h-full">
-              <div className="font-inter md:text-[1.25rem] sm:text-[.9988rem] text-[.8063rem]">
+              <div className="md:text-[1.25rem] sm:text-[.9988rem] text-[.8063rem]">
                 {eventSlotLeft} Slots Left
               </div>
               <div className="md:w-[2.125rem] md:h-[2.1875rem] sm:w-[1.6975rem] sm:h-[1.7475rem] w-[1.3706rem] h-[1.4106rem]">
@@ -60,7 +60,7 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
             </div>
           </Accordion.Trigger>
           <Accordion.Content className="flex flex-col align-bottom">
-            <div className="font-inter flex flex-row">
+            <div className="flex flex-row">
               <div className="font-bold md:text-[1.25rem] sm:text-[.9988rem] text-[.8063rem]">
                 P{eventPrice}
               </div>
@@ -72,14 +72,14 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
               </div>
             </div>
 
-            <div className="block font-inter md:text-[1.25rem] sm:text-[.9988rem] text-[.8063rem]">
+            <div className="block md:text-[1.25rem] sm:text-[.9988rem] text-[.8063rem]">
               {eventBuilding}
             </div>
-            <div className="block font-inter md:text-[1.25rem] sm:text-[.9988rem] text-[.8063rem]">
+            <div className="block md:text-[1.25rem] sm:text-[.9988rem] text-[.8063rem]">
               {eventTime}
             </div>
             <Link href={eventURL}>
-              <button className="w-full font-inter md:h-[2.3244rem] sm:h-[1.8569rem] h-[1.4988rem] md:text-[1.125rem] sm:text-[.8988rem] text-[.7256rem] text-[#FFFFFF] bg-lavander hover:bg-lightlavander  hover:outline-[#757575] rounded-[.2075rem] my-3">
+              <button className="w-full md:h-[2.3244rem] sm:h-[1.8569rem] h-[1.4988rem] md:text-[1.125rem] sm:text-[.8988rem] text-[.7256rem] text-[#FFFFFF] bg-lavander hover:bg-lightlavander  hover:outline-[#757575] rounded-[.2075rem] my-3">
                 Buy Tickets
               </button>
             </Link>

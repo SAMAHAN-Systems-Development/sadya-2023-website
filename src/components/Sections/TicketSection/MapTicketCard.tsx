@@ -21,7 +21,7 @@ const MapTicketCard: FC<MapTicketCardProps> = ({
           <h1 className="leading-none font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] text-[1.6rem]">
             {firstCard_header.eventTitle}
           </h1>
-          <h2 className="font-inter font-semibold md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem]">
+          <h2 className="font-semibold md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem]">
             {firstCard_header.eventDate}
           </h2>
         </div>
@@ -46,7 +46,7 @@ const MapTicketCard: FC<MapTicketCardProps> = ({
           <h1 className="leading-none font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] text-[1.6rem]">
             {secondCard_header.eventTitle}
           </h1>
-          <h2 className="font-inter font-semibold md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem]">
+          <h2 className="font-semibold md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem]">
             {secondCard_header.eventDate}
           </h2>
         </div>

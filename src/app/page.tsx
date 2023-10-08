@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 
 import CurrentlyHappeningSection from '@/components/Sections/CurrentlyHappening/CurrentlyHappeningSection';
 
-import HomePage from '@/components/Home/HomePage';
 import ActivitiesSection from '@/components/Sections/ActivitiesSection/ActivitiesSection';
+import Hero from '@/components/Sections/Hero';
 import TicketSection from '@/components/Sections/TicketSection/TicketSection';
 import NavigationBar from '@/components/ui/NavigationBar';
 
@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="bg-white bg-gradient-to-t from-lightlavander/20 to-lightlavander/5 relative">
       <NavigationBar />
-      <HomePage />
+      <Hero />
       <CurrentlyHappeningSection />
       <ActivitiesSection />
       <TicketSection />

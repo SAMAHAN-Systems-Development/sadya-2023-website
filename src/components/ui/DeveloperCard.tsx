@@ -33,13 +33,13 @@ const DeveloperCard: React.FC<DeveloperCardProps> = ({
         alt="/"
       />
       <div className="absolute bottom-0 left-0 px-5 pb-7 pl-5 z-10">
-        <span className="text-sm font-inter text-[#EFD807]">
+        <span className="text-sm text-[#EFD807]">
           {developerType}
         </span>
-        <h1 className="text-2xl font-bold font-inter text-[#CFEF07]">
+        <h1 className="text-2xl font-bold text-[#CFEF07]">
           {fullName}
         </h1>
-        <span className="text-sm font-inter font-light text-white">
+        <span className="text-sm font-light text-white">
           {course}
         </span>
         <div className="flex pt-3 gap-4 text-3xl text-white">

@@ -6,7 +6,7 @@ type SectionUIProps = {
 };
 
 const SectionUI: FC<SectionUIProps> = ({ children }) => {
-  return <section className="container-2xl my-5 lg:my-20">{children}</section>;
+  return <section className="container-2xl mb-5 mt-20 sm:mt-32 md:mt-40  lg:mt-52">{children}</section>;
 };
 
 export default SectionUI;

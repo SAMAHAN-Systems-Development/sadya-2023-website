@@ -2,7 +2,7 @@ import type { TicketsCardProps } from "lib/types/ticketCardType"
 
 export const firstCard_header = {
   eventTitle: "BATTLE OF THE BANDS",
-  eventDate: "October 12-13, 2023"
+  eventDate: "October 12, 2023"
 }
 
 export const secondCard_header = {
@@ -25,7 +25,7 @@ export const firstCardData: TicketsCardProps[] = [
   eventId: "event1_5f_slots",
   eventFloor: "5F",
   eventPrice: 300,
-  eventFoodAvailability: "Without Food",
+  eventFoodAvailability: "Without Drinks",
   eventBuilding: "Martin Hall",
   eventSlotLeft: 100,
   eventTime: "5:00PM - 9:00PM",
@@ -35,7 +35,7 @@ export const firstCardData: TicketsCardProps[] = [
   eventId: "event1_6f_slots",
   eventFloor: "6F",
   eventPrice: 250,
-  eventFoodAvailability: "Without Food",
+  eventFoodAvailability: "Without Drinks",
   eventBuilding: "Martin Hall",
   eventSlotLeft: 200,
   eventTime: "5:00PM - 9:00PM",
@@ -48,7 +48,7 @@ export const secondCardData: TicketsCardProps[] = [
   eventId: "event2_slots",
   eventFloor: "1F",
   eventPrice: 50,
-  eventFoodAvailability: "Without Food",
+  eventFoodAvailability: "Without Drinks",
   eventBuilding: "Bapa Benny Tudtud Auditorium",
   eventSlotLeft: 300,
   eventTime: "6:00PM - 9:00 PM",
