@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { FaRegWindowMinimize } from 'react-icons/fa6';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import SadyaLogo from 'public/assets/images/SADYA LOGOTYPE 3D 1.png';
 
@@ -46,15 +47,17 @@ const NavigationBar = () => {
       className={`sticky z-50 top-0 flex items-start justify-between px-6 py-4 bg-gradient-to-b from-white via-white-50 to-transparent h-[11.25rem] transition-opacity ${
         isNavBarVisible ? 'opacity-100' : 'opacity-0'
       }`}
-    >
-      <div className="relative w-[78.4px] h-[44px] sm:w-[123px] sm:h-[80px] leading-normal">
-        <Image
-          className="absolute "
-          alt="Sadya LOGOTYPE"
-          src={SadyaLogo}
-          fill
-        />
-      </div>
+    > 
+      <Link href="/">
+        <div className="relative w-[78.4px] h-[44px] sm:w-[123px] sm:h-[80px] leading-normal">
+          <Image
+            className="absolute "
+            alt="Sadya LOGOTYPE"
+            src={SadyaLogo}
+            fill
+          />
+        </div>
+      </Link>
       <div>
         <MainButton label="GET TICKETS" type="get-tickets" />
       </div>
