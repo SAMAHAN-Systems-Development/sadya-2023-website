@@ -63,7 +63,7 @@ const DeveloperCard: React.FC<DeveloperCardProps> = ({
           </Link>
         </div>
       </div>
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#080A3C] to-transparent rounded-[0.9375rem]" />
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#080A3C] from-10% to-50% rounded-[0.9375rem]" />
     </div>
   );
 };

@@ -30,8 +30,8 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="text-right flex md:flex-col flex-row sm:space-x-10 space-x-7 md:justify-between justify-center items-center">
-        <h2 className="font-extrabold md:text-3xl sm:text-4xl text-2xl text-center font-londrina">
+      <div className="text-right flex md:flex-col flex-row sm:space-x-10 space-x-7 md:justify-between justify-center md:items-end items-center">
+        <h2 className="font-extrabold md:text-3xl sm:text-4xl text-2xl font-londrina">
           SADYA 2023
         </h2>
         <Link href="/about-the-developers">

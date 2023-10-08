@@ -1,14 +1,12 @@
 import React from 'react';
 
-import SectionUI from '@/components/SectionUI';
 import DeveloperCard from '@/components/ui/DeveloperCard';
 import SectionTitle from '@/components/ui/SectionTitle';
 import { Developers } from '@/data/developers';
 
 const DeveloperSection = () => {
   return (
-    <SectionUI>
-      <div className="pt-20 flex flex-col items-center">
+      <div className="py-12 flex flex-col items-center bg-gradient-to-t from-lightlavander/20 to-lightlavander/5">
         <SectionTitle
           title="SAMAHAN SysDev Team"
           subtitle="Explore innovation at its core – meet the talented developers behind the scenes."
@@ -21,7 +19,6 @@ const DeveloperSection = () => {
           ))}
         </div>
       </div>
-    </SectionUI>
   );
 };
 

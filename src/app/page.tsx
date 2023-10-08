@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="bg-white bg-gradient-to-t from-lightlavander/20 to-lightlavander/5 relative">
+    <div className="bg-white bg-gradient-to-t from-lightlavander/20 to-lightlavander/5">
       <NavigationBar />
       <Hero />
       <CurrentlyHappeningSection />
