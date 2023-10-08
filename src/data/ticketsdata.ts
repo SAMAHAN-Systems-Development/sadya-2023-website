@@ -16,7 +16,7 @@ export const firstCardData: TicketsCardType[] = [
   eventId: "event1_4f_slots",
   eventFloor: "4F",
   eventPrice: 350,
-  eventFoodAvailability: "With Food",
+  eventFoodAvailability: "With Drinks",
   eventBuilding: "Martin Hall",
   eventSlotLeft: 1000,
   eventTime: "5:00-9:00PM",

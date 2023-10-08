@@ -1,78 +1,72 @@
-
 import type { FC } from 'react';
 
-import type { TicketsCardType } from '../../../lib/types/ticketCardType';
+import type { TicketsCardProps } from 'lib/types/ticketCardType';
 
-import TicketsCard from '@/components/ui/TicketsCard'
-import {firstCard_header, secondCard_header} from '@/data/ticketsdata'
+import TicketsCard from '@/components/ui/TicketsCard';
+import { firstCard_header, secondCard_header } from '@/data/ticketsdata';
 
 type MapTicketCardProps = {
-  firstCardData: TicketsCardType[],
-  secondCardData: TicketsCardType[]
+  firstCardData: TicketsCardProps[];
+  secondCardData: TicketsCardProps[];
 };
 
- const MapTicketCard: FC<MapTicketCardProps> = ({ firstCardData, secondCardData }) => {
-return (
-      <div className="h-[30rem] flex-row justify-center">
+const MapTicketCard: FC<MapTicketCardProps> = ({
+  firstCardData,
+  secondCardData,
+}) => {
+  return (
+    <div className="h-fit flex-row justify-center">
       <div className="px-5 py-5">
         <div className="flex flex-col text-center py-5">
-          <h1 className="font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] xsm:text-[1.6rem]">
-                {firstCard_header.eventTitle}
-            </h1>
-              <h2 className="font-inter md:text-[1.375rem] sm:text-[1.1rem] xsm:text-[.88rem]">
-                {firstCard_header.eventDate}
-              </h2>
+          <h1 className="font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] text-[1.6rem]">
+            {firstCard_header.eventTitle}
+          </h1>
+          <h2 className="font-inter md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem]">
+            {firstCard_header.eventDate}
+          </h2>
         </div>
-           
-            {firstCardData.map((ticketData, index) => (
-              <TicketsCard
-              key={index}
-              eventId = {ticketData.eventId}
-              eventFloor = {ticketData.eventFloor}
-              eventPrice = {ticketData.eventPrice}
-              eventFoodAvailability={ticketData.eventFoodAvailability}
-              eventBuilding = {ticketData.eventBuilding}
-              eventSlotLeft = {ticketData.eventSlotLeft}
-              eventTime = {ticketData.eventTime}
-              eventURL = {ticketData.eventURL}
-            />
-              
-            
-          
-          ))}
 
-    </div>
+        {firstCardData.map((ticketData, index) => (
+          <TicketsCard
+            key={index}
+            eventId={ticketData.eventId}
+            eventFloor={ticketData.eventFloor}
+            eventPrice={ticketData.eventPrice}
+            eventFoodAvailability={ticketData.eventFoodAvailability}
+            eventBuilding={ticketData.eventBuilding}
+            eventSlotLeft={ticketData.eventSlotLeft}
+            eventTime={ticketData.eventTime}
+            eventURL={ticketData.eventURL}
+          />
+        ))}
+      </div>
 
       <div className="px-5 py-5">
-     <div className="flex flex-col text-center py-5">
-            <h1 className="font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] xsm:text-[1.6rem]">
-                {secondCard_header.eventTitle}
-            </h1>
-              <h2 className="font-inter md:text-[1.375rem] sm:text-[1.1rem] xsm:text-[.88rem]">
-                {secondCard_header.eventDate}
-              </h2>
+        <div className="flex flex-col text-center py-5">
+          <h1 className="font-londrina font-bold text-lavander md:text-[2.5rem] sm:text-[2rem] text-[1.6rem]">
+            {secondCard_header.eventTitle}
+          </h1>
+          <h2 className="font-inter md:text-[1.375rem] sm:text-[1.1rem] text-[.88rem]">
+            {secondCard_header.eventDate}
+          </h2>
         </div>
-           
-         
-          {secondCardData.map((ticketData, index) => (
-            <TicketsCard
-              key={index}
-              eventId = {ticketData.eventId}
-              eventFloor = {ticketData.eventFloor}
-              eventPrice = {ticketData.eventPrice}
-              eventFoodAvailability={ticketData.eventFoodAvailability}
-              eventBuilding={ticketData.eventBuilding}
-              eventSlotLeft = {ticketData.eventSlotLeft}
-              eventTime = {ticketData.eventTime}
-              eventURL = {ticketData.eventURL}
-            />
-          ))}
-          </div>
-        </div>
-        
-        
-    )   
-     
-}
 
-export default MapTicketCard
+        {secondCardData.map((ticketData, index) => (
+          <TicketsCard
+            key={index}
+            eventId={ticketData.eventId}
+            eventFloor={ticketData.eventFloor}
+            eventPrice={ticketData.eventPrice}
+            eventFoodAvailability={ticketData.eventFoodAvailability}
+            eventBuilding={ticketData.eventBuilding}
+            eventSlotLeft={ticketData.eventSlotLeft}
+            eventTime={ticketData.eventTime}
+            eventURL={ticketData.eventURL}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default MapTicketCard;

@@ -24,7 +24,7 @@ export const EventData: EventDataTypes[] = [
     imageUrl: sampleImg,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDate: 'October 12, 2023',
-    eventDataDescription: 'Bench Cheerings (Liveliest Cluster Award)',
+    eventDataDescription: 'Bench Cheerings',
     eventDataFloor: 'Ateneo de Davao University, Jacinto Campus - 9:00AM to 12:00PM',
     start: 'October 12 2023 9:00 AM',
     expiry: 'October 12 2023 12:00 PM',

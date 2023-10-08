@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 
-import HomePage from '@/components/Home/HomePage';
+import CurrentlyHappeningSection from '@/components/Sections/CurrentlyHappening/CurrentlyHappeningSection';
+
+import TicketSection from '@/components/Sections/TicketSection/TicketSection';
+import NavigationBar from '@/components/ui/NavigationBar';
 
 export const metadata: Metadata = {
   title: 'SADYA 2023: The Ateneo U-Fest',
@@ -9,8 +12,10 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main>
-      <HomePage />
-    </main>
+    <div className="bg-white bg-gradient-to-t from-lightlavander relative">
+      <NavigationBar />
+      <CurrentlyHappeningSection />
+      <TicketSection />
+    </div>
   );
 }

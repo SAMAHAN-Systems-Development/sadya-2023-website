@@ -10,11 +10,13 @@ import Maverick from 'public/assets/images/developers/Maverick.png';
 import MiguelDai from 'public/assets/images/developers/MigsDai.png';
 import LouisMiguel from 'public/assets/images/developers/MigsPau.png';
 import Paolo from 'public/assets/images/developers/Paolo.png';
+import gaten from 'public/assets/images/developers/gaten.png';
+
 
 export const Developers: DeveloperCardProps[] = [
   {
     course: 'BS Computer Science',
-    developerType: 'Back-End Developer',
+    developerType: 'Project Head',
     facebook: 'https://web.facebook.com/Angelli.alkuino',
     fullName: 'Angelli Kezzed Alkuino',
     imageUrl: Angelli,
@@ -110,5 +112,14 @@ export const Developers: DeveloperCardProps[] = [
     imageUrl: Maverick,
     instagram: '/',
     twitter: '/',
+  },
+  {
+    course: 'BS Pototype Companion',
+    developerType: 'Cat',
+    facebook: 'https://www.facebook.com/SAMAHANSysDev',
+    fullName: 'El Gatenean',
+    imageUrl: gaten,
+    instagram: 'https://www.instagram.com/samahansysdev/',
+    twitter: 'https://twitter.com/SAMAHANSysDev',
   },
 ];
