@@ -10,8 +10,12 @@ const Footer = () => {
   return (
     <div className="xsm:p-8 p-6 w-full h-auto bg-white flex md:flex-row flex-col justify-between md:space-y-0 space-y-4 text-black">
       <div className="flex flex-col md:items-start items-center text-center font-medium md:text-lg sm:text-sm text-xs">
-        <h3>Copyright &#169; 2023 SAMAHAN</h3>
-        <h3>Developed by SAMAHAN Systems Development & SCT</h3>
+        <div>
+          <h3>Copyright &#169; 2023 <span className='hover:underline'><a href='https://samahan.addu.edu.ph' target='_blank' rel='noopener noreferrer'>SAMAHAN</a></span></h3>
+        </div>
+        <div>
+        <h3>Developed by <span className='hover:underline'><a href='https://sadya2023.addu.edu.ph/about-the-developers' rel='noopener noreferrer'>SAMAHAN Systems Development</a></span> & <span className='hover:underline'><a href='https://www.facebook.com/SAMAHANCreativeTeam' target='_blank' rel='noopener noreferrer'>SCT</a></span></h3>
+        </div>
         <div className="flex sm:pt-7 pt-4 gap-3 md:text-3xl sm:text-2xl text-xl">
           <Link
             href={'https://www.facebook.com/AdDUSAMAHAN'}
@@ -36,7 +40,7 @@ const Footer = () => {
         </h2>
         <Link href="/about-the-developers">
           <div className="flex gap-2">
-            
+
             <Image
               src={SysEgg}
               className="sm:h-14 xsm:h-12 h-9 w-auto object-contain"
