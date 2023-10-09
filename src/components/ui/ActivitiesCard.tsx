@@ -12,7 +12,7 @@ const ActivitiesCard: React.FC<EventDataTypes> = ({
   eventDataDay,
 }) => {
   return (
-    <div className="flex flex-col items-center sm:w-[441.98px] sm:h-[585.56px] w-[353.58px] h-[468.45px] bg-[#ffffff] rounded-[0.7519rem] shadow-xl">
+    <div className="flex flex-col items-center sm:w-[441.98px] sm:h-[585.56px] w-[353.58px] h-[526.45px] bg-[#ffffff] rounded-[0.7519rem] shadow-xl">
       <div className="uppercase relative leading-none pt-8 text-[#ff0e69] sm:text-[41.7008px] text-[33.37px] text-center font-londrina font-black">
         {eventDataDay}
       </div>
