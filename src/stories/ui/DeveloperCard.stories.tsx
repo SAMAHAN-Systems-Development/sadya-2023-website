@@ -15,11 +15,13 @@ export const Primary: Story = {
   args: {
     course: 'BS Computer Science',
     developerType: 'Full-Stack Developer',
-    facebook: 'facebookLink',
+    socials:{
+      facebook:'facebookLink',
+      instagram: 'instagramLink',
+      twitter: 'twitterLink',
+    },
     fullName: 'Pancit Canton',
     imageUrl: picSample,
-    instagram: 'instagramLink',
-    twitter: 'twitterLink',
   },
   render: (args) => <DeveloperCard {...args} />,
 };
