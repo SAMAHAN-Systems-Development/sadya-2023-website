@@ -6,14 +6,14 @@ import imgSrc from 'public/assets/images/MainLogo.png';
 
 const Hero = () => {
   return (
-    <div className="flex items-end justify-center w-full lg:h-[60rem] md:h-[55rem] sm:h-[43rem] h-[30rem] lg:pb-14 md:pb-10 pb-5">
+    <div className="flex items-end justify-center w-full 2xl:h-[65rem] lg:h-[60rem] md:h-[55rem] sm:h-[43rem] h-[30rem] lg:pb-14 md:pb-10 pb-5">
       <div className="absolute top-0 w-full lg:h-[55rem] md:h-[50rem] sm:h-[38rem] h-[24rem]">
         <Image
           src={imgSrc}
           alt="placeholder_banner"
           placeholder="blur"
           draggable={false}
-          className="object-cover object-top h-full"
+          className="object-cover overflow-visible object-top h-full"
           fill
         />
       </div>

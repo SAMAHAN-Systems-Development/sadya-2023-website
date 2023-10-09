@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${londrina.variable}`}>
-      <body className="font-inter font-medium">
+      <body className="font-inter font-semibold">
         {children}
         <Footer />
       </body>
