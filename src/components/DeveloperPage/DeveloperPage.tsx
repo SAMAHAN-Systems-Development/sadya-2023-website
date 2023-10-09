@@ -6,7 +6,7 @@ import { Developers } from '@/data/developers';
 
 const DeveloperPage = () => {
   return (
-    <div className="py-12 flex flex-col items-center bg-gradient-to-t from-lightlavander/20 to-lightlavander/5">
+    <div className="pt-24 sm:pt-32 pb-24 flex flex-col items-center bg-gradient-to-t from-lightlavander/20 to-lightlavander/5">
       <SectionTitle
         title="SAMAHAN SysDev Team"
         subtitle="Explore innovation at its core – meet the talented developers behind the scenes."
