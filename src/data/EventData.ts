@@ -40,7 +40,7 @@ export const EventData: EventDataTypes[] = [
     eventDataDate: 'October 12-14, 2023',
     eventDataDescription: 'COA-D Gimikan',
     eventDataFloor: 'Arrupe Hall - 1st Floor - 3:00PM to 5:00PM',
-    start: 'October 12 2023 3:00 PM',
+    start: 'October 12 2023 8:00 AM',
     expiry: 'October 12 2023 5:00 PM',
   },
   {
@@ -80,7 +80,7 @@ export const EventData: EventDataTypes[] = [
     eventDataDate: 'October 12-14, 2023',
     eventDataDescription: 'COA-D Gimikan',
     eventDataFloor: 'Arrupe Hall - 1st Floor - 3:00PM to 5:00PM',
-    start: 'October 13 2023 3:00 PM',
+    start: 'October 13 2023 8:00 AM',
     expiry: 'October 13 2023 5:00 PM',
   },
   {
@@ -90,7 +90,7 @@ export const EventData: EventDataTypes[] = [
     eventDataDate: 'October 12-14, 2023',
     eventDataDescription: 'COA-D Gimikan',
     eventDataFloor: 'Arrupe Hall - 1st Floor - 3:00PM to 5:00PM',
-    start: 'October 14 2023 3:00 PM',
+    start: 'October 14 2023 8:00 AM',
     expiry: 'October 14 2023 5:00 PM',
   },
   {
