@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="flex flex-col md:items-start items-center text-center font-medium md:text-lg sm:text-sm text-xs">
         <div>
           <h3>
-            Copyright &#169; 2023
+            Copyright &#169; 2023&nbsp;
             <span className="hover:underline">
               <a
                 href="https://samahan.addu.edu.ph"
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div>
           <h3>
-            Developed by
+            Developed by&nbsp;
             <span className="hover:underline">
               <a
                 href="https://sadya2023.addu.edu.ph/about-the-developers"
