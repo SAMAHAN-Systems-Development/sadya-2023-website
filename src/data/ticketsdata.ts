@@ -49,7 +49,7 @@ export const secondCardData: TicketsCardProps[] = [
   eventFloor: "1F",
   eventPrice: 50,
   eventFoodAvailability: "Without Drinks",
-  eventBuilding: "Bapa Benny Tudtud Auditorium",
+  eventBuilding: "Finster Auditorium",
   eventSlotLeft: 300,
   eventTime: "6:00PM - 9:00 PM",
   eventURL: 'https://form.jotform.com/232793414644056',
