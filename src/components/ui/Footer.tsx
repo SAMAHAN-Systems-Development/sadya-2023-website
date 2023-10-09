@@ -14,7 +14,9 @@ const Footer = () => {
           <h3>Copyright &#169; 2023 <span className='hover:underline'><a href='https://samahan.addu.edu.ph' target='_blank' rel='noopener noreferrer'>SAMAHAN</a></span></h3>
         </div>
         <div>
-        <h3>Developed by <span className='hover:underline'><a href='https://sadya2023.addu.edu.ph/about-the-developers' rel='noopener noreferrer'>SAMAHAN Systems Development</a></span> & <span className='hover:underline'><a href='https://www.facebook.com/SAMAHANCreativeTeam' target='_blank' rel='noopener noreferrer'>SCT</a></span></h3>
+        <h3>Developed by <span className='hover:underline'><a href='https://sadya2023.addu.edu.ph/about-the-developers' rel='noopener noreferrer'>SAMAHAN Systems Development</a></span> & &nbsp;
+         <span className='hover:underline'><a href='https://www.facebook.com/SAMAHANCreativeTeam' target='_blank' rel='noopener noreferrer'>SCT</a></span></h3>
+
         </div>
         <div className="flex sm:pt-7 pt-4 gap-3 md:text-3xl sm:text-2xl text-xl">
           <Link
