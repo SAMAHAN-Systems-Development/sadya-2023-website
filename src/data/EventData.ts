@@ -1,9 +1,20 @@
 import type { EventDataTypes } from 'lib/types/EventDataTypes';
 import sampleImg from 'public/assets/images/sampleImg.png';
 
+import gimikan from 'public/assets/images/COA-D 1.png';
+import banner from 'public/assets/images/BANNER.png';
+import dancesport from 'public/assets/images/DANCE SPORT 1.png';
+import bench from 'public/assets/images/BENCH 1.png';
+import botb from 'public/assets/images/BOTB.png';
+import starsearch from 'public/assets/images/STAR SEARCH.png';
+import sayawtenista from 'public/assets/images/SAYAWTEN.png';
+import closing from 'public/assets/images/CLOSING.png';
+import creative from 'public/assets/images/SHORTFILM.png';
+
+
 export const EventData: EventDataTypes[] = [
   {
-    imageUrl: sampleImg,
+    imageUrl: gimikan,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDay: 'Day 1',
     eventDataDate: 'October 12-14, 2023',
@@ -14,7 +25,7 @@ export const EventData: EventDataTypes[] = [
   },
   {
     
-    imageUrl: sampleImg,
+    imageUrl: banner,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDay: 'Day 1',
     eventDataDate: 'October 12, 2023',
@@ -24,7 +35,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 12 2023 12:00 PM',
   },
   {
-    imageUrl: sampleImg,
+    imageUrl: dancesport,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDay: 'Day 1',
     eventDataDate: 'October 12, 2023',
@@ -34,7 +45,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 12 2023 12:00 PM',
   },
   {
-    imageUrl: sampleImg,
+    imageUrl: bench,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDay: 'Day 1',
     eventDataDate: 'October 12, 2023',
@@ -45,7 +56,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 12 2023 12:00 PM',
   },
   {
-    imageUrl: sampleImg,
+    imageUrl: botb,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDay: 'Day 1',
     eventDataDate: 'October 12, 2023',
@@ -55,7 +66,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 12 2023 9:00 PM',
   },
   {
-    imageUrl: sampleImg,
+    imageUrl: gimikan,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDay: 'Day 2',
     eventDataDate: 'October 12-14, 2023',
@@ -65,7 +76,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 13 2023 5:00 PM',
   },
   {
-    imageUrl: sampleImg,
+    imageUrl: creative,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDay: 'Day 2',
     eventDataDate: 'October 13, 2023',
@@ -75,7 +86,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 13 2023 4:00 PM',
   },
   {
-    imageUrl: sampleImg,
+    imageUrl: starsearch,
     eventDataEntry: 'TICKETED ENTRY',
     eventDataDay: 'Day 2',
     eventDataDate: 'October 13, 2023',
@@ -86,7 +97,7 @@ export const EventData: EventDataTypes[] = [
   },
   
   {
-    imageUrl: sampleImg,
+    imageUrl: gimikan,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDay: 'Day 3',
     eventDataDate: 'October 12-14, 2023',
@@ -96,7 +107,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 14 2023 5:00 PM',
   },
   {
-    imageUrl: sampleImg,
+    imageUrl: sayawtenista,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDay: 'Day 3',
     eventDataDate: 'October 14, 2023',
@@ -106,7 +117,7 @@ export const EventData: EventDataTypes[] = [
     expiry: 'October 14 2023 9:00 PM',
   },
   {
-    imageUrl: sampleImg,
+    imageUrl: closing,
     eventDataEntry: 'OPEN TO ALL',
     eventDataDay: 'Day 3',
     eventDataDate: 'October 14, 2023',
