@@ -1,11 +1,12 @@
 
 export type TicketsCardProps = {
+  btnText: string,
   eventBuilding: string,
   eventFloor: string,
   eventFoodAvailability: string,
   eventId: string,
-  eventPrice: number,
+  eventPrice: string,
   eventSlotLeft: number,
   eventTime: string,
-  eventURL: string,
+  eventURL: string
 };

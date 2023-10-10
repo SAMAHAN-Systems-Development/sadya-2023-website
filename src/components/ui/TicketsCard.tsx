@@ -16,6 +16,7 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
   eventSlotLeft,
   eventTime,
   eventURL,
+  btnText
 }) => {
   const [isAccordionOpen, setIsAccordionOpen] = useState(false);
 
@@ -62,7 +63,7 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
           <Accordion.Content className="flex flex-col align-bottom">
             <div className="flex flex-row">
               <div className="font-bold md:text-[1.25rem] sm:text-[.9988rem] text-[.8063rem]">
-                P{eventPrice}
+                {eventPrice}
               </div>
               <div className="mx-2 md:text-[1.25rem] sm:text-[.9988rem] text-[.8063rem]">
                 -
@@ -80,7 +81,7 @@ const TicketsCard: React.FC<TicketsCardProps> = ({
             </div>
             <Link href={eventURL}>
               <button className="w-full md:h-[2.3244rem] sm:h-[1.8569rem] h-[1.4988rem] md:text-[1.125rem] sm:text-[.8988rem] text-[.7256rem] text-[#FFFFFF] bg-lavander hover:bg-lightlavander  hover:outline-[#757575] rounded-[.2075rem] my-3">
-                Buy Tickets
+                {btnText}
               </button>
             </Link>
           </Accordion.Content>

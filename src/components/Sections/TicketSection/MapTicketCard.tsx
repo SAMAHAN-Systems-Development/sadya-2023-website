@@ -37,6 +37,7 @@ const MapTicketCard: FC<MapTicketCardProps> = ({
             eventSlotLeft={ticketData.eventSlotLeft}
             eventTime={ticketData.eventTime}
             eventURL={ticketData.eventURL}
+            btnText={ticketData.btnText}
           />
         ))}
       </div>
@@ -62,6 +63,7 @@ const MapTicketCard: FC<MapTicketCardProps> = ({
             eventSlotLeft={ticketData.eventSlotLeft}
             eventTime={ticketData.eventTime}
             eventURL={ticketData.eventURL}
+            btnText={ticketData.btnText}
           />
         ))}
       </div>
