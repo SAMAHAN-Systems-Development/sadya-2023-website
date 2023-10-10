@@ -1,15 +1,13 @@
 import type { EventDataTypes } from 'lib/types/EventDataTypes';
-import sampleImg from 'public/assets/images/sampleImg.png';
-
-import gimikan from 'public/assets/images/COA-D 1.png';
 import banner from 'public/assets/images/BANNER.png';
-import dancesport from 'public/assets/images/DANCE SPORT 1.png';
 import bench from 'public/assets/images/BENCH 1.png';
 import botb from 'public/assets/images/BOTB.png';
-import starsearch from 'public/assets/images/STAR SEARCH.png';
-import sayawtenista from 'public/assets/images/SAYAWTEN.png';
 import closing from 'public/assets/images/CLOSING.png';
+import gimikan from 'public/assets/images/COA-D 1.png';
+import dancesport from 'public/assets/images/DANCE SPORT 1.png';
+import sayawtenista from 'public/assets/images/SAYAWTEN.png';
 import creative from 'public/assets/images/SHORTFILM.png';
+import starsearch from 'public/assets/images/STAR SEARCH.png';
 
 
 export const EventData: EventDataTypes[] = [
