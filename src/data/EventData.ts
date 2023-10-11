@@ -79,7 +79,7 @@ export const EventData: EventDataTypes[] = [
     eventDataDay: 'Day 2',
     eventDataDate: 'October 13, 2023',
     eventDataDescription: 'Creative Series: Short Film',
-    eventDataFloor: 'Finster Auditorium - 7th Floor - 2:00PM to 4:00PM',
+    eventDataFloor: 'Bapa Benny Tudtud Auditorium - 2:00PM to 4:00PM',
     start: 'October 13 2023 2:00 PM',
     expiry: 'October 13 2023 4:00 PM',
   },
