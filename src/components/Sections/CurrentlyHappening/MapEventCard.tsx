@@ -25,7 +25,7 @@ export default function MapEventCard() {
           <p>No current events.</p>
         </div>
       ) : (
-          <div className="flex flex-wrap justify-center">
+          <div className="flex flex-wrap justify-center text-white">
             {filteredEvents.map((event, index) => (
               <div key={index} className='m-4'>
               <EventCard
